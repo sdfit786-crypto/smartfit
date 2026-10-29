@@ -1,0 +1,35 @@
+.catalog-browser{margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}
+.catalog-browser-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+.catalog-browser-head h4{margin:0;font-size:15px}.catalog-browser-head p{margin:5px 0 0;color:var(--muted);font-size:12px;line-height:1.5}
+.catalog-count,.catalog-selection-count{font-size:11px;color:var(--muted);white-space:nowrap}
+.catalog-selection{display:flex;align-items:center;gap:10px;margin:10px 0 14px}
+.catalog-filters{display:grid;grid-template-columns:minmax(160px,.7fr) minmax(220px,1.3fr);gap:10px;margin:14px 0}
+.catalog-filters label{display:grid;gap:6px;font-size:11px;font-weight:600;color:var(--muted)}
+.catalog-filters select,.catalog-filters input{width:100%;min-height:40px;padding:8px 10px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--ink);font:inherit;font-size:12px}
+.catalog-filters select:focus,.catalog-filters input:focus{outline:3px solid color-mix(in srgb,var(--accent) 20%,transparent);border-color:var(--accent)}
+.catalog-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+.catalog-item{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.catalog-item>img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f5f8f5}
+.catalog-image-missing>img{display:none}
+.catalog-item-details{display:grid;gap:4px;padding:9px}
+.catalog-item-details strong{font-size:11px;line-height:1.3}.catalog-item-details>span{font-size:10px;color:var(--muted)}
+.catalog-item-actions{display:flex;gap:6px;margin-top:5px}
+.catalog-item-actions button,.catalog-more,.catalog-clear{min-height:32px;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);font:inherit;font-size:10px;font-weight:600;cursor:pointer}
+.catalog-item-actions button:last-child[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.catalog-more{display:block;margin:16px auto 0;padding:8px 15px;font-size:11px}
+.catalog-disclaimer{margin:12px 0 0;color:var(--muted);font-size:10px;line-height:1.5}
+.catalog-empty{grid-column:1/-1;color:var(--muted);font-size:12px}
+.catalog-look{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:11px}
+.catalog-look-item{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:5px;background:#fff}
+.catalog-look-item img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f5f8f5}
+.catalog-look-item span{display:block;padding:7px;font-size:10px;font-weight:600;line-height:1.35}
+.catalog-look-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px}
+.catalog-look-save{min-height:34px;padding:7px 10px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--accent);font:inherit;font-size:11px;font-weight:700;cursor:pointer}
+.catalog-preview{width:min(92vw,560px);max-height:90vh;padding:0;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
+.catalog-preview::backdrop{background:#15231fb3}
+.catalog-preview img{display:block;width:100%;max-height:68vh;object-fit:contain;background:#f5f8f5}
+.catalog-preview-copy{padding:15px 17px}.catalog-preview-copy h3{margin:0;font-size:16px}.catalog-preview-copy p{margin:5px 0 0;color:var(--muted);font-size:12px}
+.catalog-preview-close{position:absolute;top:10px;right:10px;width:36px;height:36px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--ink);font-size:19px;cursor:pointer}
+@media(max-width:900px){.catalog-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.catalog-look{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-look{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-filters{grid-template-columns:1fr}.catalog-browser-head{align-items:center}}
+@media(max-width:360px){.catalog-grid{gap:7px}.catalog-item-details{padding:7px}.catalog-look{gap:7px}}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart FD Fit | Girls Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/dashboard.css">
+<link rel="stylesheet" href="assets/css/dashboard-polish.css">
+<link rel="stylesheet" href="assets/css/dashboard-layout.css">
+<link rel="stylesheet" href="assets/css/clothing-catalog.css">
+
+</head>
+<body class="girls-dashboard">
+<script>(function(){const pages=['overview','outfits','stylist','body','wardrobe','tryon','planner','color','shopping','inspiration','collections','settings','help'];const requested=new URLSearchParams(location.search).get('page');document.body.dataset.page=pages.includes(requested)?requested:'overview';})();</script>
+
+<nav id="sd-fit-feature-nav" aria-label="SD Fit feature navigation" class="dashboard-feature-nav">
+  <a href="SD-Fit-Girls-Dashboard.html?page=overview">Overview</a><a href="SD-Fit-Girls-Dashboard.html?page=outfits">Outfit ideas</a><a href="SD-Fit-Girls-Dashboard.html?page=stylist">Outfit builder</a><a href="SD-Fit-Girls-Dashboard.html?page=body">Body &amp; size</a><a href="SD-Fit-Girls-Dashboard.html?page=wardrobe">Wardrobe</a><a href="SD-Fit-Girls-Dashboard.html?page=tryon">Virtual try-on</a><a href="SD-Fit-Girls-Dashboard.html?page=planner">Planner</a><a href="SD-Fit-Girls-Dashboard.html?page=color">Color stylist</a><a href="SD-Fit-Girls-Dashboard.html?page=shopping">Shopping</a><a href="SD-Fit-Girls-Dashboard.html?page=inspiration">Inspiration</a><a href="SD-Fit-Girls-Dashboard.html?page=collections">Collections</a><a href="SD-Fit-Girls-Dashboard.html?page=settings">Settings</a><a href="SD-Fit-Girls-Dashboard.html?page=help">Help</a>
+</nav>
+
+
+
+<div class="app">
+<aside class="sidebar" id="sidebar">
+  <div class="brand"><div class="brand-mark">✿</div><div><div class="brand-name">Smart FD Fit</div><div class="brand-sub">Your personal stylist</div></div></div>
+  <div class="nav-label">WORKSPACE</div>
+  <nav class="nav">
+    <a class="active" href="SD-Fit-Girls-Dashboard.html?page=overview" data-nav="Dashboard"><span class="ico">⌂</span> Dashboard</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=outfits" data-nav="Outfit recommendations"><span class="ico">♧</span> Outfit Ideas</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=stylist" data-nav="Outfit builder"><span class="ico">✦</span> Outfit Builder</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=body" data-nav="Body profile"><span class="ico">♙</span> Body &amp; Size</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=wardrobe" data-nav="Wardrobe"><span class="ico">▣</span> Wardrobe</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=tryon" data-nav="Virtual try-on"><span class="ico">◉</span> Virtual Try-On</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=planner" data-nav="Style planner"><span class="ico">▦</span> Style Planner</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=color" data-nav="Color stylist"><span class="ico">◌</span> Color Stylist</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=shopping" data-nav="Shopping assistant"><span class="ico">🛍</span> Shopping Assistant</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=inspiration" data-nav="Inspiration"><span class="ico">✧</span> Inspiration</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=collections" data-nav="Style collections"><span class="ico">♡</span> Style Collections</a>
+  </nav>
+  <div class="nav-label dashboard-account-label">YOUR ACCOUNT</div>
+  <nav class="nav">
+    <a href="SD-Fit-Girls-Dashboard.html?page=settings" data-nav="Settings"><span class="ico">⚙</span> Settings</a>
+    <a href="SD-Fit-Girls-Dashboard.html?page=help" data-nav="Help and support"><span class="ico">ⓘ</span> Help &amp; Support</a>
+  </nav>
+  <div class="side-bottom">
+    <div class="style-tip"><div class="tip-icon">✨</div><h4>A little style inspiration</h4><p>Your best outfit is the one that makes you feel like yourself.</p><a class="small-btn" href="SD-Fit-Girls-Dashboard.html?page=inspiration">Explore inspiration ↗</a></div>
+    <div class="profile-mini"><div class="avatar" id="avatarInitial">A</div><div><strong id="sideName">Your profile</strong><span>Style Explorer</span></div></div>
+  </div>
+</aside>
+<main id="dashboard">
+  <header class="topbar">
+    <div class="dashboard-topbar-copy"><button class="icon-btn mobile-menu" data-action="toggle-menu" aria-label="Open menu">☰</button><div><div class="eyebrow">YOUR STYLE SPACE</div><h1 class="page-title"><span id="pageHeadingPrefix">Good evening, </span><span id="greetingName">there</span><span class="greeting-decoration" aria-hidden="true"> ✨</span></h1><p class="subtitle">A little inspiration for feeling confident in what you wear.</p></div></div>
+    <div class="top-actions"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search outfits, styles..."></label><button class="icon-btn" data-action="notify" data-message="You’re all caught up!" aria-label="Notifications">♧<i class="dot"></i></button><button class="icon-btn" id="signOutButton" title="Sign out" aria-label="Sign out">↪</button></div>
+  </header>
+  <section class="hero">
+    <div class="hero-copy"><span class="hero-tag">✦ YOUR DAILY STYLE EDIT</span><h2>Style that feels like <em>you.</em></h2><p>Discover outfit ideas inspired by your preferences, your body profile, and the moments that matter to you.</p><a class="primary-btn" href="SD-Fit-Girls-Dashboard.html?page=outfits">Explore my outfits&nbsp; ↗</a></div>
+    <div class="hero-art"><img src="SD-Fit-Image-Assets/girls/outfit-examples-by-size-girls.jpg" alt="Outfit combinations from the girls style collection" loading="lazy"></div>
+  </section>
+  <section class="stats" aria-label="Your style summary">
+    <article class="stat"><div class="stat-top"><span class="stat-label">Style profile</span><span class="stat-icon">♡</span></div><div class="stat-value" id="profileCompletionStat">0%</div><div class="stat-note">↗ Profile completion</div></article>
+    <article class="stat"><div class="stat-top"><span class="stat-label">Saved outfits</span><span class="stat-icon">♧</span></div><div class="stat-value" id="savedCount">0</div><div class="stat-note">Your personal collection</div></article>
+    <article class="stat"><div class="stat-top"><span class="stat-label">Style mood</span><span class="stat-icon">✧</span></div><div class="stat-value dashboard-metric-style" id="stylePreference">Casual</div><div class="stat-note">Based on your preferences</div></article>
+    <article class="stat"><div class="stat-top"><span class="stat-label">This week's looks</span><span class="stat-icon">▦</span></div><div class="stat-value" id="weeklyLookCount">00</div><div class="stat-note">Looks planned so far</div></article>
+  </section>
+  <div class="section-head"><h3>Your style at a glance</h3><button class="text-link" data-action="scroll" data-target="#body">View my profile ↗</button></div>
+  <section class="content-grid">
+    <article class="panel" id="body"><div class="panel-head"><h3>My body profile</h3><span class="pill">PERSONALIZED</span></div>
+      <div class="body-card"><div class="body-figure">♙</div><div class="body-info"><h4>Your profile, your fit</h4><p>Keep your measurements updated to get more relevant size and silhouette suggestions.</p><div class="progress-label"><span>Profile completion</span><strong id="profileCompletionValue">0%</strong></div><div class="progress"><span></span></div><a class="text-link dashboard-check-fit-link" href="SD-Fit-Girls-Dashboard.html?page=body">Check my fit ↗</a></div></div>
+      <div class="measurements"><div class="measure"><span>Height</span><strong id="profileHeight">— <small>cm</small></strong></div><div class="measure"><span>Weight</span><strong id="profileWeight">— <small>kg</small></strong></div><div class="measure"><span>Waist</span><strong id="profileWaist">— <small>cm</small></strong></div></div>
+    </article>
+    <article class="panel"><div class="panel-head"><h3>Style preferences</h3><button class="text-link" data-action="scroll" data-target=".content-grid .categories">Choose a style ↗</button></div><div class="categories">
+      <button class="category selected" data-action="select-style" data-name="Casual"><span class="cat-emoji">👖</span><span><strong>Casual</strong><span>Everyday comfort</span></span></button>
+      <button class="category" data-action="select-style" data-name="Elegant"><span class="cat-emoji">👗</span><span><strong>Elegant</strong><span>Polished looks</span></span></button>
+      <button class="category" data-action="select-style" data-name="Streetwear"><span class="cat-emoji">👟</span><span><strong>Streetwear</strong><span>Modern & bold</span></span></button>
+      <button class="category" data-action="select-style" data-name="Festive"><span class="cat-emoji">✨</span><span><strong>Festive</strong><span>Special moments</span></span></button>
+    </div></article>
+  </section>
+
+  <section class="panel ai-stylist dashboard-panel-offset" id="aiStylist">
+    <div class="panel-head"><div><span class="eyebrow">STYLE BUILDER</span><h3>Personal Outfit Builder</h3></div><span class="pill">FIT-AWARE</span></div>
+    <p class="stylist-intro">Build a complete look from the clothing catalog. Choose a setting, style and silhouette.</p>
+    <div class="stylist-controls">
+      <label>Occasion<select id="stylistOccasion"><option value="College">College / everyday</option><option value="Date">Date night</option><option value="Party">Party</option><option value="Wedding">Wedding / festive</option><option value="Interview">Interview / work</option></select></label>
+      <label>Style<select id="stylistVibe"><option value="Casual">Casual</option><option value="Minimal">Minimal</option><option value="Streetwear">Streetwear</option><option value="Elegant">Elegant</option></select></label>
+      <label>Silhouette<select id="stylistFormula"><option value="balanced" selected>Balanced separates</option><option value="layered">Add a layer</option><option value="relaxed">Relaxed proportions</option><option value="dress">Dress look</option></select></label>
+      <button class="primary-btn stylist-submit" data-action="generate-stylist">Build my outfit ↗</button>
+    </div>
+    <div class="stylist-result" id="stylistResult" aria-live="polite"><div class="stylist-result-icon">✧</div><div><strong>Your catalog look will appear here</strong><p>Choose your options and build a look to see the pieces.</p></div></div>
+    <p class="stylist-note">Catalog images are illustrative cropped tiles, not product photos. Check a retailer's garment chart for real sizing.</p>
+  </section>
+
+<section class="panel body-shape-panel dashboard-panel-offset" id="bodyShapeAnalysis">
+  <div class="panel-head">
+    <div><span class="eyebrow">STEP 02 · FIT PROFILE</span><h3>⌁ Body Shape Analysis</h3></div>
+    <span class="pill">ESTIMATE</span>
+  </div>
+  <p class="shape-intro">Enter your measurements to get an approximate shape category and practical outfit-fit tips. Measure in centimetres for best consistency.</p>
+  <img class="shape-guide" src="SD-Fit-Image-Assets/girls/body-shapes-girls.jpg" alt="Illustrated guide to body-shape proportions" loading="lazy">
+  <form id="shapeForm" class="shape-form">
+    <label>Shoulder circumference / width (cm)<input type="number" id="shapeShoulder" min="1" max="250" step="0.1" placeholder="e.g. 44" required></label>
+    <label>Chest / bust (cm)<input type="number" id="shapeChest" min="1" max="250" step="0.1" placeholder="e.g. 92" required></label>
+    <label>Waist (cm)<input type="number" id="shapeWaist" min="1" max="250" step="0.1" placeholder="e.g. 78" required></label>
+    <label>Hips (cm)<input type="number" id="shapeHips" min="1" max="250" step="0.1" placeholder="e.g. 96" required></label>
+    <label>Compare measurements for<select id="fitGarmentType"><option value="top">Top · bust only</option><option value="bottom">Bottom · waist and hips</option><option value="outfit" selected>Top and bottom · all three</option></select></label>
+    <button type="submit" class="primary-btn">Analyse my fit ↗</button>
+  </form>
+  <div class="shape-result" id="shapeResult" aria-live="polite">
+    <div class="shape-result-mark">⌁</div>
+    <div><strong>Your fit profile will appear here</strong><p>Enter your measurements above, then choose “Analyse my fit”.</p></div>
+  </div>
+  <div class="fit-size-result" id="fitSizeResult" aria-live="polite"><strong>Illustrative size guide</strong><p>Enter your bust, waist and hip measurements to compare them with the supplied starter chart.</p></div>
+  <p class="shape-disclaimer">This is a simple styling estimate, not a medical assessment or a definitive body classification. Measurement methods vary; use the result as a flexible styling guide, not a rule about what you should wear.</p>
+</section>
+
+
+<section class="panel digital-wardrobe dashboard-panel-offset" id="digitalWardrobe">
+  <div class="panel-head">
+    <div><span class="eyebrow">STEP 03 · YOUR CLOSET</span><h3>▣ Digital Wardrobe</h3></div>
+    <span class="pill" id="wardrobeCount">0 ITEMS</span>
+  </div>
+  <p class="wardrobe-intro">Add clothes you already own, organize them by category and colour, and combine pieces into outfit ideas. Items are saved in this browser on this device.</p>
+  <form id="wardrobeForm" class="wardrobe-form">
+    <label>Item name<input id="wardrobeName" maxlength="60" placeholder="e.g. White cotton shirt" required></label>
+    <label>Category<select id="wardrobeCategory"><option>Tops</option><option>Bottoms</option><option>Outerwear</option><option>Shoes</option><option>Accessories</option><option>Traditional / occasion wear</option></select></label>
+    <label>Colour<select id="wardrobeColour"><option>Black</option><option>White</option><option>Navy</option><option>Blue</option><option>Grey</option><option>Beige</option><option>Brown</option><option>Green</option><option>Red</option><option>Pink</option><option>Purple</option><option>Yellow</option><option>Multicolour</option></select></label>
+    <label>Photo (optional)<input id="wardrobePhoto" type="file" accept="image/*"></label>
+    <button type="submit" class="primary-btn">＋ Add to wardrobe</button>
+  </form>
+  <div class="wardrobe-tools">
+    <label>Filter by category<select id="wardrobeFilter"><option value="All">All categories</option><option>Tops</option><option>Bottoms</option><option>Outerwear</option><option>Shoes</option><option>Accessories</option><option>Traditional / occasion wear</option></select></label>
+    <button type="button" class="secondary-btn" id="makeOutfitBtn">✦ Suggest an outfit</button>
+  </div>
+  <div class="wardrobe-grid" id="wardrobeGrid"><div class="wardrobe-empty">Your wardrobe is empty. Add your first item above.</div></div>
+  <div class="wardrobe-suggestion" id="wardrobeSuggestion" aria-live="polite"></div>
+  <p class="wardrobe-disclaimer">Demo storage uses this browser's local storage. Photos are resized before saving when possible. This is not cloud sync; connect authenticated storage and a database for multi-device use.</p>
+</section>
+
+<section id="style-inspiration" class="style-inspiration">
+  <div class="si-head">
+    <div>
+      <h2>✨ Style Inspiration Feed <span class="dashboard-step-mark">STEP 8</span></h2>
+      <p>Explore outfit formulas, filter by occasion, and save looks you want to try. These are inspiration cards, not product listings.</p>
+    </div>
+    <span class="dashboard-step-tag">Save favourite looks</span>
+  </div>
+  <div class="si-filters" id="si-filters">
+    <button type="button" class="si-filter active" data-filter="all">All looks</button>
+    <button type="button" class="si-filter" data-filter="college">College</button>
+    <button type="button" class="si-filter" data-filter="casual">Casual</button>
+    <button type="button" class="si-filter" data-filter="work">Work</button>
+    <button type="button" class="si-filter" data-filter="party">Party</button>
+    <button type="button" class="si-filter" data-filter="minimal">Minimal</button>
+  </div>
+  <div id="si-grid" class="si-grid" aria-live="polite"></div>
+  <div class="si-saved">
+    <h3 class="dashboard-no-top-margin">❤️ Saved inspiration</h3>
+    <div id="si-saved-list" class="si-note">Save a look to see it here.</div>
+  </div>
+  <div id="si-status" class="si-note" role="status" aria-live="polite"></div>
+  <div class="si-note">Saved looks stay in this browser. For a production version, this feed could be connected to a database and real outfit photos with appropriate usage rights.</div>
+</section>
+
+
+
+<section id="smart-shopping-assistant" class="shopping-assistant">
+  <div class="sa-head">
+    <div>
+      <h2>🛍️ Smart Shopping Assistant <span class="dashboard-step-mark">STEP 7</span></h2>
+      <p>Plan your clothing purchases around a budget, choose categories, and build a checklist before you shop.</p>
+    </div>
+    <span class="dashboard-step-tag">Budget planner</span>
+  </div>
+  <div class="sa-form">
+    <label class="sa-field">Total budget (₹)
+      <input id="sa-budget" type="number" min="100" max="1000000" step="100" value="3000">
+    </label>
+    <label class="sa-field">Shopping goal
+      <select id="sa-goal"><option value="college">College basics</option><option value="work">Work / interview</option><option value="party">Party / event</option><option value="everyday">Everyday refresh</option><option value="season">Seasonal essentials</option></select>
+    </label>
+    <label class="sa-field">Priority
+      <select id="sa-priority"><option value="balanced">Balanced wardrobe</option><option value="basics">Essentials first</option><option value="statement">Statement pieces</option><option value="comfort">Comfort first</option></select>
+    </label>
+  </div>
+  <button type="button" class="sa-btn" id="sa-recommend">Build my shopping plan</button>
+  <button type="button" class="sa-btn sa-secondary" id="sa-clear">Clear checklist</button>
+  <div class="sa-results" id="sa-results" aria-live="polite"></div>
+  <div class="sa-list" id="sa-checklist">
+    <h3 class="dashboard-no-top-margin">My shopping checklist</h3>
+    <div id="sa-list-items" class="sa-muted">Generate a plan and add items to your checklist.</div>
+    <div class="sa-summary"><span id="sa-total">Selected total: ₹0</span><span id="sa-left">Budget left: ₹0</span></div>
+    <div class="sa-actions dashboard-button-row">
+      <button type="button" class="sa-btn sa-secondary dashboard-no-top-margin" id="sa-save">Save checklist</button>
+      <button type="button" class="sa-btn sa-secondary dashboard-no-top-margin" id="sa-load">Load checklist</button>
+      <button type="button" class="sa-btn sa-secondary dashboard-no-top-margin" id="sa-export">Copy / export list</button>
+    </div>
+  </div>
+  <div class="sa-muted">Prices are illustrative planning estimates, not live store prices. This demo does not purchase products or fetch current inventory. Saved checklist data stays in this browser.</div>
+  <div id="sa-status" class="sa-muted" role="status" aria-live="polite"></div>
+</section>
+
+
+
+<section id="personal-colour-stylist" class="colour-stylist">
+  <div class="cs-head">
+    <div>
+      <h2>🎨 Personal Colour Stylist <span class="dashboard-step-mark">STEP 6</span></h2>
+      <p>Explore colour families and outfit palettes based on your preferred undertone, contrast, and style. You can change the choices anytime.</p>
+    </div>
+    <span class="dashboard-step-tag">Colour guide</span>
+  </div>
+  <div class="cs-form">
+    <label class="cs-field">Undertone (your best guess)
+      <select id="cs-undertone"><option value="warm">Warm / golden</option><option value="cool">Cool / rosy</option><option value="neutral">Neutral / unsure</option></select>
+    </label>
+    <label class="cs-field">Contrast preference
+      <select id="cs-contrast"><option value="medium">Medium contrast</option><option value="low">Soft / low contrast</option><option value="high">Bold / high contrast</option></select>
+    </label>
+    <label class="cs-field">Style mood
+      <select id="cs-mood"><option value="balanced">Everyday balanced</option><option value="minimal">Minimal</option><option value="streetwear">Streetwear</option><option value="elegant">Elegant</option><option value="festive">Festive / statement</option></select>
+    </label>
+  </div>
+  <button type="button" class="cs-btn" id="cs-generate">Find my colour palette</button>
+  <div class="cs-results" id="cs-results" aria-live="polite"></div>
+  <div class="cs-muted dashboard-inset-14">Tip: tap a colour swatch to copy its name and hex code. These are style suggestions, not a definitive colour analysis; lighting, personal taste, and the actual garment can change how a colour looks on you.</div>
+  <div class="cs-muted dashboard-inset-8" id="cs-status" role="status" aria-live="polite"></div>
+</section>
+
+
+
+<section id="weekly-outfit-planner" class="weekly-planner">
+  <div class="wp-head">
+    <div>
+      <h2>📅 Weekly Outfit Planner <span class="dashboard-step-mark">STEP 5</span></h2>
+      <p>Build a seven-day outfit plan, mark what you have already worn, and regenerate outfits when your plans change.</p>
+    </div>
+    <span class="dashboard-step-tag">7-day plan</span>
+  </div>
+  <div class="wp-settings">
+    <label class="wp-field">Main routine
+      <select id="wp-routine">
+        <option value="college">College / everyday</option><option value="work">Work / interview</option><option value="mixed">Mixed week</option><option value="social">Social / events</option>
+      </select>
+    </label>
+    <label class="wp-field">Style preference
+      <select id="wp-style">
+        <option value="balanced">Balanced</option><option value="minimal">Minimal</option><option value="streetwear">Streetwear</option><option value="elegant">Elegant</option><option value="sporty">Sporty</option>
+      </select>
+    </label>
+    <label class="wp-field">Weather
+      <select id="wp-weather"><option value="mild">Mild / normal</option><option value="hot">Hot</option><option value="cold">Cold</option><option value="rainy">Rainy</option></select>
+    </label>
+  </div>
+  <div class="wp-actions">
+    <button type="button" class="wp-btn primary" id="wp-generate">Generate my week</button>
+    <button type="button" class="wp-btn" id="wp-save">Save this plan</button>
+    <button type="button" class="wp-btn" id="wp-load">Load saved plan</button>
+    <button type="button" class="wp-btn" id="wp-clear">Clear plan</button>
+  </div>
+  <div id="wp-days" class="wp-days"><div class="wp-empty">Choose your routine and press <strong>Generate my week</strong>.</div></div>
+  <div class="wp-note">This planner uses built-in outfit suggestions and your selected preferences. It is not connected to live weather or an AI service. Saved plans stay in this browser on this device.</div>
+  <div id="wp-status" class="wp-note" role="status" aria-live="polite"></div>
+</section>
+
+
+
+<section id="virtual-try-on" class="vto-panel">
+  <div class="vto-heading">
+    <div>
+      <h2>🪄 Virtual Try-On <span class="dashboard-step-mark">STEP 4</span></h2>
+      <p>Upload your photo and a clothing image, then position the garment over your photo to preview a basic outfit combination.</p>
+    </div>
+    <span class="dashboard-step-tag">Private · Runs in your browser</span>
+  </div>
+  <div class="vto-grid">
+    <div class="vto-field">
+      <label for="vto-person-file">1. Upload your full-body photo</label>
+      <input id="vto-person-file" type="file" accept="image/*">
+      <div class="vto-note">A front-facing photo with a plain background works best. Your photo stays in this page; it is not uploaded to a server.</div>
+    </div>
+    <div class="vto-field">
+      <label for="vto-garment-file">2. Upload a clothing image</label>
+      <input id="vto-garment-file" type="file" accept="image/*">
+      <div class="vto-note">Use a clear product image. A transparent-background PNG usually gives the cleanest overlay.</div>
+    </div>
+  </div>
+  <div class="dashboard-inset-16">
+    <div class="vto-preview" id="vto-preview" aria-label="Virtual try-on preview">
+      <div class="vto-placeholder" id="vto-placeholder"><div class="dashboard-vto-glyph">👕</div><strong>Your try-on preview will appear here</strong><div class="dashboard-vto-copy">Add both images above to get started.</div></div>
+      <img class="vto-person" id="vto-person-img" alt="Your uploaded photo preview" hidden>
+      <img class="vto-garment" id="vto-garment-img" alt="Clothing overlay preview" hidden draggable="false">
+    </div>
+    <div class="vto-controls">
+      <label class="vto-control">Garment size <span id="vto-size-value">42%</span><input id="vto-size" type="range" min="10" max="85" value="42"></label>
+      <label class="vto-control">Garment opacity <span id="vto-opacity-value">90%</span><input id="vto-opacity" type="range" min="20" max="100" value="90"></label>
+      <label class="vto-control">Horizontal position <span id="vto-x-value">50%</span><input id="vto-x" type="range" min="5" max="95" value="50"></label>
+      <label class="vto-control">Vertical position <span id="vto-y-value">40%</span><input id="vto-y" type="range" min="5" max="95" value="40"></label>
+    </div>
+    <div class="vto-actions">
+      <button type="button" class="vto-btn" id="vto-reset">Reset position</button>
+      <button type="button" class="vto-btn primary" id="vto-download">Save preview image</button>
+      <button type="button" class="vto-btn" id="vto-clear">Clear images</button>
+    </div>
+    <div class="vto-status" id="vto-status" role="status" aria-live="polite"></div>
+    <div class="vto-note"><strong>Demo limitation:</strong> this is a manual image overlay, not AI garment fitting. It does not reshape clothing around your body or predict exact fit. Adjust the size and position for a rough visual idea.</div>
+  </div>
+</section>
+
+
+
+  <section id="outfits"><div class="section-head"><h3>Picked for your style</h3><button class="text-link" data-action="notify" data-message="You’re viewing all currently available sample outfits.">View all outfits ↗</button></div>
+    <div class="catalog-outfits" id="outfitList" aria-live="polite"><p class="catalog-empty">Your outfit ideas will appear here.</p></div>
+    <div class="catalog-browser" id="clothingCatalog">
+      <div class="catalog-browser-head"><div><h4>Browse the clothing catalog</h4><p>Choose from the supplied pieces to explore colors, cuts and categories.</p></div><span class="catalog-count" id="catalogCount">Loading catalog…</span></div>
+      <div class="catalog-filters"><label>Category<select id="catalogCategory"><option value="all">All categories</option></select></label><label>Search pieces<input id="catalogSearch" type="search" placeholder="Try “linen” or “dress”"></label></div>
+      <div class="catalog-selection"><span class="catalog-selection-count" id="catalogSelectionCount">0 selected</span><button class="catalog-clear" id="catalogClearSelection" type="button">Clear selection</button></div>
+      <div class="catalog-grid" id="catalogGrid" aria-live="polite"></div>
+      <button class="catalog-more" id="catalogMore" type="button" hidden>Show more pieces</button>
+      <p class="catalog-disclaimer">Illustrative catalog tiles only; not verified retail photos or guaranteed fit examples.</p>
+    </div>
+    <dialog class="catalog-preview" id="catalogPreview" aria-labelledby="catalogPreviewTitle"><button class="catalog-preview-close" id="catalogPreviewClose" type="button" aria-label="Close preview">×</button><img id="catalogPreviewImage" alt=""><div class="catalog-preview-copy"><h3 id="catalogPreviewTitle"></h3><p id="catalogPreviewCategory"></p></div></dialog>
+  </section>
+  <section class="lower-grid" id="planner">
+    <article class="panel"><div class="panel-head"><h3>Your style planner</h3><button class="text-link" data-action="scroll" data-target="#weekly-outfit-planner">Open planner ↗</button></div><div class="week" id="weekDays"><button class="day" data-action="pick-day"><span>MON</span><strong>12</strong></button><button class="day" data-action="pick-day"><span>TUE</span><strong>13</strong></button><button class="day active" data-action="pick-day"><span>WED</span><strong>14</strong></button><button class="day" data-action="pick-day"><span>THU</span><strong>15</strong></button><button class="day" data-action="pick-day"><span>FRI</span><strong>16</strong></button><button class="day" data-action="pick-day"><span>SAT</span><strong>17</strong></button><button class="day" data-action="pick-day"><span>SUN</span><strong>18</strong></button></div><div class="planner-event"><div class="event-icon">🌷</div><div class="event-text"><strong>Plan a look you love</strong><span>Choose an outfit for your next occasion</span></div><span class="event-arrow">›</span></div></article>
+    <article class="panel" id="categories"><div class="panel-head"><h3>Explore collections</h3><span class="pill">4 COLLECTIONS</span></div><div class="categories">
+      <button class="category" data-action="select-style" data-name="Everyday"><span class="cat-emoji">☀️</span><span><strong>Everyday</strong><span>Easy essentials</span></span></button>
+      <button class="category" data-action="select-style" data-name="Occasion"><span class="cat-emoji">💐</span><span><strong>Occasion</strong><span>Moments to dress up</span></span></button>
+      <button class="category" data-action="select-style" data-name="Workwear"><span class="cat-emoji">👜</span><span><strong>Workwear</strong><span>Smart & confident</span></span></button>
+      <button class="category" data-action="select-style" data-name="Weekend"><span class="cat-emoji">🌸</span><span><strong>Weekend</strong><span>Relaxed favourites</span></span></button>
+    </div></article>
+  </section>
+  <section class="panel profile-settings dashboard-panel-offset" id="settings" aria-labelledby="settings-title">
+    <div class="panel-head"><div><span class="eyebrow">YOUR ACCOUNT</span><h2 id="settings-title">Profile settings</h2></div><span class="pill">PRIVATE TO YOU</span></div>
+    <p class="settings-intro">Keep your details and measurements up to date for more relevant fit guidance. Measurements are optional and can be changed anytime.</p>
+    <form id="profileSettingsForm">
+      <div class="settings-section">
+        <h3>Personal details</h3>
+        <div class="settings-grid">
+          <label class="settings-field">Full name<input id="settingsFullName" name="fullName" type="text" autocomplete="name" maxlength="80" required></label>
+          <label class="settings-field">Email address<input id="settingsEmail" name="email" type="email" autocomplete="email" readonly><small>Email is managed by your sign-in provider.</small></label>
+          <label class="settings-field">Age<input id="settingsAge" name="age" type="number" min="13" max="100" step="1" required></label>
+          <label class="settings-field">Location<input id="settingsLocation" name="location" type="text" autocomplete="address-level2" maxlength="100" required></label>
+          <label class="settings-field">Style preference<select id="settingsStylePreference" name="stylePreference"><option>Casual</option><option>Elegant</option><option>Streetwear</option><option>Festive</option><option>Workwear</option><option>Weekend</option></select></label>
+          <label class="settings-field">Fit guide for<select id="settingsFitGarmentType" name="fitGarmentType"><option value="outfit">Top and bottom</option><option value="top">Top</option><option value="bottom">Bottom</option></select></label>
+        </div>
+      </div>
+      <div class="settings-section">
+        <h3>Body measurements <span>cm and kg</span></h3>
+        <div class="settings-grid settings-measurements">
+          <label class="settings-field">Height<input name="height" type="number" min="80" max="250" step="0.1" inputmode="decimal" placeholder="Optional"></label>
+          <label class="settings-field">Weight<input name="weight" type="number" min="20" max="350" step="0.1" inputmode="decimal" placeholder="Optional"></label>
+          <label class="settings-field">Chest / bust<input name="chest" type="number" min="30" max="200" step="0.1" inputmode="decimal" placeholder="Optional"></label>
+          <label class="settings-field">Waist<input name="waist" type="number" min="30" max="200" step="0.1" inputmode="decimal" placeholder="Optional"></label>
+          <label class="settings-field">Hips<input name="hips" type="number" min="30" max="220" step="0.1" inputmode="decimal" placeholder="Optional"></label>
+          <label class="settings-field">Shoulder width<input name="shoulder" type="number" min="20" max="100" step="0.1" inputmode="decimal" placeholder="Optional"></label>
+        </div>
+      </div>
+      <div class="settings-actions"><button class="primary-btn settings-save" type="submit">Save changes</button><span id="settingsStatus" class="settings-status" role="status" aria-live="polite"></span></div>
+    </form>
+  </section>
+  <section class="panel help-center dashboard-panel-offset" id="helpSupport" aria-labelledby="help-title">
+    <div class="panel-head"><div><span class="eyebrow">HERE TO HELP</span><h2 id="help-title">Help &amp; support</h2></div></div>
+    <p class="settings-intro">A few quick answers to help you get more from your style space.</p>
+    <div class="help-grid">
+      <article><h3>How do I update my fit profile?</h3><p>Open Settings to edit your personal details, style preference, and optional measurements. Save your changes to update your profile.</p><a href="SD-Fit-Girls-Dashboard.html?page=settings">Open settings ↗</a></article>
+      <article><h3>Are size suggestions guaranteed?</h3><p>No. Size guides are illustrative starting points. Check each brand’s own chart and choose the fit that feels comfortable to you.</p><a href="SD-Fit-Girls-Dashboard.html?page=body">Review fit guidance ↗</a></article>
+      <article><h3>Where are my saved style ideas?</h3><p>Saved outfits and style inspiration stay connected to your account when you are signed in.</p><a href="SD-Fit-Girls-Dashboard.html?page=inspiration">Explore inspiration ↗</a></article>
+      <article><h3>Is my try-on photo uploaded?</h3><p>The virtual try-on preview runs in your browser. The uploaded images are not sent to the app’s server.</p><a href="SD-Fit-Girls-Dashboard.html?page=tryon">Open virtual try-on ↗</a></article>
+    </div>
+  </section>
+  <footer class="dashboard-footer">SMART FD FIT · STYLE THAT FITS YOU PERFECTLY</footer>
+</main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+
+
+
+
+
+<script src="assets/js/girls-dashboard.js"></script>
+<script type="module" src="assets/js/clothing-catalog.js"></script>
+<script type="module" src="assets/js/dashboard.js"></script>
+</body>
+</html>

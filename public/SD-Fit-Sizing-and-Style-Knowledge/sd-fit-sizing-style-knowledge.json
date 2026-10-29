@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "name": "SD Fit Sizing & Style Knowledge Pack",
+    "version": "1.0",
+    "units": "centimetres",
+    "warning": "All size bands in this pack are illustrative starter estimates, not universal or certified sizing standards. Actual sizes vary by brand, garment, fabric, cut and country. Use product-specific charts for accurate recommendations."
+  },
+  "measurement_instructions": {
+    "height_cm": "Measure from floor to top of head without shoes.",
+    "chest_cm": "Wrap tape horizontally around the fullest chest, keeping it level and comfortably snug.",
+    "bust_cm": "Wrap tape horizontally around the fullest bust, keeping it level and comfortably snug.",
+    "waist_cm": "Measure at the natural waist or the point specified by the brand chart; do not pull tight.",
+    "hips_cm": "Measure around the fullest part of hips/seat.",
+    "shoulder_cm": "Measure across the back from shoulder point to shoulder point.",
+    "inseam_cm": "Measure from crotch seam to trouser hem, or compare with well-fitting trousers.",
+    "sleeve_cm": "Measure from shoulder point to wrist with arm slightly bent.",
+    "foot_length_cm": "Stand on paper, mark heel and longest toe, then measure. Use the brand's shoe chart."
+  },
+  "illustrative_body_size_bands": {
+    "boys": [
+      {
+        "size": "XS",
+        "chest_cm": [
+          82,
+          88
+        ],
+        "waist_cm": [
+          68,
+          74
+        ],
+        "hips_cm": [
+          84,
+          90
+        ]
+      },
+      {
+        "size": "S",
+        "chest_cm": [
+          88,
+          94
+        ],
+        "waist_cm": [
+          74,
+          80
+        ],
+        "hips_cm": [
+          90,
+          96
+        ]
+      },
+      {
+        "size": "M",
+        "chest_cm": [
+          94,
+          100
+        ],
+        "waist_cm": [
+          80,
+          86
+        ],
+        "hips_cm": [
+          96,
+          102
+        ]
+      },
+      {
+        "size": "L",
+        "chest_cm": [
+          100,
+          108
+        ],
+        "waist_cm": [
+          86,
+          94
+        ],
+        "hips_cm": [
+          102,
+          110
+        ]
+      },
+      {
+        "size": "XL",
+        "chest_cm": [
+          108,
+          116
+        ],
+        "waist_cm": [
+          94,
+          102
+        ],
+        "hips_cm": [
+          110,
+          118
+        ]
+      },
+      {
+        "size": "XXL",
+        "chest_cm": [
+          116,
+          124
+        ],
+        "waist_cm": [
+          102,
+          112
+        ],
+        "hips_cm": [
+          118,
+          128
+        ]
+      }
+    ],
+    "girls": [
+      {
+        "size": "XS",
+        "bust_cm": [
+          76,
+          82
+        ],
+        "waist_cm": [
+          60,
+          66
+        ],
+        "hips_cm": [
+          84,
+          90
+        ]
+      },
+      {
+        "size": "S",
+        "bust_cm": [
+          82,
+          88
+        ],
+        "waist_cm": [
+          66,
+          72
+        ],
+        "hips_cm": [
+          90,
+          96
+        ]
+      },
+      {
+        "size": "M",
+        "bust_cm": [
+          88,
+          96
+        ],
+        "waist_cm": [
+          72,
+          80
+        ],
+        "hips_cm": [
+          96,
+          104
+        ]
+      },
+      {
+        "size": "L",
+        "bust_cm": [
+          96,
+          104
+        ],
+        "waist_cm": [
+          80,
+          88
+        ],
+        "hips_cm": [
+          104,
+          112
+        ]
+      },
+      {
+        "size": "XL",
+        "bust_cm": [
+          104,
+          112
+        ],
+        "waist_cm": [
+          88,
+          98
+        ],
+        "hips_cm": [
+          112,
+          120
+        ]
+      },
+      {
+        "size": "XXL",
+        "bust_cm": [
+          112,
+          122
+        ],
+        "waist_cm": [
+          98,
+          108
+        ],
+        "hips_cm": [
+          120,
+          130
+        ]
+      }
+    ]
+  },
+  "body_shapes": {
+    "boys": [
+      {
+        "id": "rectangle",
+        "label": "Rectangle",
+        "cues": "Chest, waist and hips relatively similar.",
+        "ideas": [
+          "Structured overshirts or jackets for added shape if desired",
+          "Straight or gently tapered trousers",
+          "Texture and colour-blocking for visual structure"
+        ],
+        "fit": [
+          "Check shoulder seam placement",
+          "Choose size from garment chart, not shape"
+        ]
+      },
+      {
+        "id": "inverted_triangle",
+        "label": "Inverted triangle",
+        "cues": "Shoulders/chest broader than waist/hips.",
+        "ideas": [
+          "Simple shoulder lines and open collars",
+          "Straight or relaxed trousers to balance proportions if desired",
+          "V-necks or vertical details"
+        ],
+        "fit": [
+          "Prioritize chest and shoulder fit",
+          "Buttons should not pull across chest"
+        ]
+      },
+      {
+        "id": "triangle",
+        "label": "Triangle",
+        "cues": "Waist/hips wider relative to shoulders.",
+        "ideas": [
+          "Structured upper layers if desired",
+          "Simple bottoms with textured tops",
+          "Straight-leg trousers"
+        ],
+        "fit": [
+          "Check hip and thigh room",
+          "Do not size down if the waistband or hips pull"
+        ]
+      },
+      {
+        "id": "oval",
+        "label": "Oval",
+        "cues": "Midsection fuller relative to shoulders and hips.",
+        "ideas": [
+          "Softly structured layers and draping fabrics",
+          "Open overshirts or vertical seams if preferred",
+          "Mid-rise straight or relaxed trousers"
+        ],
+        "fit": [
+          "Prioritize comfort when sitting and moving",
+          "Avoid body-shaming language"
+        ]
+      },
+      {
+        "id": "trapezoid",
+        "label": "Trapezoid",
+        "cues": "Shoulders somewhat broader than waist; proportions fairly balanced.",
+        "ideas": [
+          "Try slim, regular or relaxed cuts",
+          "Tees, shirts, denim and layers are versatile",
+          "Experiment with colours and accessories"
+        ],
+        "fit": [
+          "Use chest/waist chart and personal preference"
+        ]
+      },
+      {
+        "id": "athletic",
+        "label": "Athletic / muscular",
+        "cues": "More developed shoulders, chest, arms or thighs; proportions vary.",
+        "ideas": [
+          "Athletic cuts or stretch panels for movement",
+          "Try tapered or relaxed cuts",
+          "Check upper-arm and thigh room"
+        ],
+        "fit": [
+          "Do not size down to reduce looseness elsewhere",
+          "Consider tailoring if measurements span sizes"
+        ]
+      }
+    ],
+    "girls": [
+      {
+        "id": "rectangle",
+        "label": "Rectangle",
+        "cues": "Bust, waist and hips relatively similar.",
+        "ideas": [
+          "Layering, belted pieces or texture if you like waist definition",
+          "Straight trousers, A-line skirts, structured jackets",
+          "Choose prints and colours by preference"
+        ],
+        "fit": [
+          "Fit bust/shoulders and hips first; tailoring can adjust waist"
+        ]
+      },
+      {
+        "id": "hourglass",
+        "label": "Hourglass",
+        "cues": "Bust and hips relatively balanced with a more defined waist.",
+        "ideas": [
+          "Wrap tops or shaped jackets if you like waist definition",
+          "Stretch or contoured cuts",
+          "Straight, wide-leg and A-line bottoms can all work"
+        ],
+        "fit": [
+          "Check both bust and hip measurements"
+        ]
+      },
+      {
+        "id": "pear",
+        "label": "Pear",
+        "cues": "Hips wider than bust/shoulders.",
+        "ideas": [
+          "Detailed or structured tops if desired",
+          "Straight, bootcut or wide-leg bottoms",
+          "A-line skirts and dresses"
+        ],
+        "fit": [
+          "Prioritize hip/thigh room and a comfortable waistband"
+        ]
+      },
+      {
+        "id": "apple",
+        "label": "Apple / midsection-forward",
+        "cues": "Midsection fuller relative to bust/hips; bodies vary widely.",
+        "ideas": [
+          "Relaxed drape or open layers if preferred",
+          "Straight-leg bottoms",
+          "Choose fabric for comfort, not concealment"
+        ],
+        "fit": [
+          "Check comfort sitting and moving"
+        ]
+      },
+      {
+        "id": "inverted_triangle",
+        "label": "Inverted triangle",
+        "cues": "Shoulders or bust broader than hips.",
+        "ideas": [
+          "Simple shoulder lines with A-line or wide-leg bottoms if desired",
+          "V-necks or open collars",
+          "Use colour and print wherever you prefer"
+        ],
+        "fit": [
+          "Check shoulder seams, bust ease and arm movement"
+        ]
+      },
+      {
+        "id": "athletic",
+        "label": "Athletic / straight",
+        "cues": "May have straighter lines or more developed shoulders/legs.",
+        "ideas": [
+          "Sporty layers, relaxed tailoring or wrap details",
+          "Stretch fabrics for movement",
+          "Fitted and loose silhouettes can both work"
+        ],
+        "fit": [
+          "Ensure comfortable movement across shoulders, bust, hips and thighs"
+        ]
+      }
+    ]
+  },
+  "fit_preferences": {
+    "slim": "Closer to the body, but without pulling, restricted movement or distorted seams.",
+    "regular": "Balanced ease for everyday movement.",
+    "relaxed": "Extra room through the garment; check length and shoulder drop.",
+    "oversized": "Intentionally loose; choose a designed oversized cut or compare garment measurements."
+  },
+  "recommendation_rules": [
+    "Use the selected product's brand-specific size chart first.",
+    "Compare every relevant measurement, not only chest/bust.",
+    "If measurements point to different sizes, explain the conflict and recommend checking garment cut, stretch and return policy.",
+    "Use body shape only for optional style ideas; never infer a precise size from body shape alone.",
+    "Use fit preference as a secondary choice only after checking the brand chart.",
+    "If measurements are missing or outside the chart, ask for remeasurement or return 'no reliable match'."
+  ],
+  "website_data_model": {
+    "profile_fields": [
+      "audience_preference",
+      "height_cm",
+      "chest_cm",
+      "bust_cm",
+      "waist_cm",
+      "hips_cm",
+      "shoulder_cm",
+      "inseam_cm",
+      "foot_length_cm",
+      "optional_body_shape",
+      "fit_preference",
+      "style_preferences",
+      "occasion",
+      "budget"
+    ],
+    "product_fields": [
+      "brand",
+      "product_id",
+      "category",
+      "size_system",
+      "garment_measurements_cm",
+      "fabric_stretch",
+      "fit_label",
+      "size_chart_url",
+      "return_policy_url",
+      "last_verified_at"
+    ],
+    "recommendation_fields": [
+      "suggested_size",
+      "status_or_confidence",
+      "reason",
+      "measurements_used",
+      "brand_chart_source",
+      "alternative_size_note"
+    ]
+  }
+}

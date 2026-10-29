@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart FD Fit | Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  
+<link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+  <main class="page">
+    <section class="showcase" aria-label="Smart FD Fit introduction">
+      <header class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 50 62" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 4c-2 1-3 3-2 5l2 3-2 5-7 5-3 14 5 8 1 13h6l2-17 2 0 2 17h6l1-13 5-8-3-14-7-5-2-5 2-3c1-2 0-4-2-5l-2 2-2-2Z"/>
+            <path d="M18 18c3 3 10 3 14 0l-2 8 4 12-7 6-2-12-2 12-7-6 4-12Z" fill="#f9e5e6"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-name">Smart FD Fit</h1>
+          <p class="brand-tagline">Style That Fits You Perfectly</p>
+        </div>
+      </header>
+
+      <div class="intro">
+        <h2>Discover Styles<br><span>That Fit You,</span><br>Perfectly.</h2>
+        <p>Find outfit recommendations designed for your body type, style preference and every occasion.</p>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 32 38" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3c-2 2-1 5 1 6l-4 4-3 8 3 4 1 10h4l1-12 1 12h4l1-10 3-4-3-8-4-4c2-2 3-4 1-6l-2 2-3-2Z"/><path d="M12 11c2 2 6 2 8 0M12 16l4 2 4-2"/></svg></div>
+            <div><h3>Know Your Body Type</h3><p>Take a quick quiz and discover your<br class="desktop-break"> unique body shape.</p></div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 32 38" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4c1 3 2 5 4 5s3-2 4-5l5 5-4 6 4 16H7l4-16-4-6 5-5Z"/><path d="M12 4c1 2 2 3 4 3s3-1 4-3M11 15c3 2 7 2 10 0"/></svg></div>
+            <div><h3>Personalized Style</h3><p>Get outfit ideas tailored just for you.</p></div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 38 38" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="19" cy="19" r="14"/><path d="M19 5v5M33 19h-5M19 33v-5M5 19h5"/><circle cx="19" cy="13" r="2.5"/><circle cx="25" cy="20" r="2.5"/><circle cx="14" cy="23" r="2.5"/></svg></div>
+            <div><h3>Style with Confidence</h3><p>Look and feel your best, every day.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fashion-art" aria-hidden="true">
+        <img src="SD-Fit-Image-Assets/girls/outfit-examples-by-size-girls.jpg" alt="Outfit ideas from the Smart FD Fit style collection" />
+      </div>
+
+      <aside class="quote">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <div><p>Fashion is about something that comes from within you.</p><cite>– Ralph Lauren</cite></div>
+      </aside>
+    </section>
+
+    <section class="login-side" aria-label="Login">
+      <div class="login-card">
+        <h1>Welcome Back!</h1>
+        <p class="subtitle">Login to continue your styling journey</p>
+        <div id="form-message" class="message" role="status" aria-live="polite"></div>
+        <form id="login-form" novalidate>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <div class="input-wrap">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <div class="input-wrap">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></svg>
+              <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required minlength="6" />
+              <button class="toggle-password" type="button" id="toggle-password" aria-label="Show password" title="Show password">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7c2 0 3.8.7 5.2 1.7M22 12s-3.6 7-10 7c-2 0-3.8-.7-5.2-1.7M9.9 9.9a3 3 0 0 0 4.2 4.2M3 3l18 18"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="forgot-row"><a href="#forgot-password" id="forgot-link">Forgot Password?</a></div>
+          <button class="login-button" type="submit">Login</button>
+        </form>
+
+        <div class="divider"><span>or continue with</span></div>
+        <button class="social-button" type="button" data-provider="Google">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 24.5c0-1.4-.1-2.8-.4-4.1H24v7.8h11a9.4 9.4 0 0 1-4.1 6.2v5.1h6.6c3.9-3.6 6.1-8.9 6.1-15Z"/><path fill="#FF3D00" d="M24 44c5.5 0 10.1-1.8 13.5-4.8l-6.6-5.1c-1.8 1.2-4.1 2-6.9 2-5.3 0-9.8-3.6-11.4-8.4H5.8v5.3A20 20 0 0 0 24 44Z"/><path fill="#4CAF50" d="M12.6 27.7a12 12 0 0 1 0-7.4V15H5.8a20 20 0 0 0 0 18l6.8-5.3Z"/><path fill="#1976D2" d="M24 12.1c3 0 5.7 1 7.8 3.1l5.8-5.8C34.1 6.1 29.5 4 24 4A20 20 0 0 0 5.8 15l6.8 5.3c1.6-4.8 6.1-8.2 11.4-8.2Z"/></svg>
+          <span>Continue with Google</span>
+        </button>
+        <button class="social-button" type="button" data-provider="Facebook">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#1877F2"/><path fill="#fff" d="M27.1 40V26.2h4.6l.7-5.4h-5.3v-3.5c0-1.6.5-2.7 2.7-2.7h2.8V9.8c-.5-.1-2.2-.2-4.2-.2-4.2 0-7 2.6-7 7.3v4h-4.7v5.4h4.7V40h5.7Z"/></svg>
+          <span>Continue with Facebook</span>
+        </button>
+        <p class="signup">Don’t have an account? <a href="smart-fd-fit-register.html" id="signup-link">Sign Up</a></p>
+      </div>
+    </section>
+  </main>
+
+  
+<script type="module" src="assets/js/login.js"></script>
+</body>
+</html>

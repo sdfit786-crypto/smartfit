@@ -1,0 +1,89 @@
+.dashboard-feature-nav{position:sticky;top:0;z-index:20;display:flex;gap:8px;flex-wrap:wrap;padding:12px 16px;background:var(--card);border-bottom:1px solid var(--line)}
+.dashboard-account-label{margin-top:25px}
+.dashboard-topbar-copy{display:flex;align-items:flex-start;gap:12px}
+.dashboard-metric-style{font-size:21px}
+.dashboard-check-fit-link{padding:12px 0 0}
+.dashboard-panel-offset{margin-top:20px}
+.dashboard-step-mark{font-size:.72em;font-weight:600;color:var(--muted)}
+.dashboard-step-tag{padding:7px 11px;border-radius:999px;background:var(--soft);color:var(--muted);font-size:.82rem;font-weight:700}
+.dashboard-no-top-margin{margin-top:0}
+.dashboard-inset-14{margin-top:14px}
+.dashboard-inset-16{margin-top:16px}
+.dashboard-inset-8{margin-top:8px}
+.dashboard-button-row{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}
+.dashboard-vto-glyph{font-size:2rem;margin-bottom:8px}
+.dashboard-vto-copy{margin-top:6px;font-size:.88rem}
+.dashboard-footer{text-align:center;color:#a18f99;font-size:10px;padding:28px 0 0}
+.profile-settings{scroll-margin-top:82px}
+.profile-settings .panel-head{align-items:flex-start}
+.profile-settings .panel-head h2{margin:5px 0 0;font-family:'DM Sans',sans-serif;font-size:20px}
+.settings-intro{max-width:760px;margin:-5px 0 22px;color:var(--muted);font-size:12px;line-height:1.7}
+.settings-section+.settings-section{margin-top:24px;padding-top:21px;border-top:1px solid var(--line)}
+.settings-section h3{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 14px;font-size:14px}
+.settings-section h3 span{color:var(--muted);font-size:10px;font-weight:500}
+.settings-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.settings-field{display:flex;min-width:0;flex-direction:column;gap:7px;color:var(--muted);font-size:11px;font-weight:700}
+.settings-field input,.settings-field select{width:100%;min-height:43px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--ink);font:inherit;font-size:13px;font-weight:400}
+.settings-field input:focus-visible,.settings-field select:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 20%,transparent);border-color:var(--accent)}
+.settings-field input[readonly]{background:var(--soft);color:var(--muted)}
+.settings-field small{font-size:10px;font-weight:400;line-height:1.4}
+.settings-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:22px}
+.settings-save{min-width:145px}
+.settings-status{font-size:12px;color:var(--green);line-height:1.5}
+.settings-status.error{color:#a1273d}
+.sidebar{overflow-y:auto;overscroll-behavior:contain}
+.help-center .panel-head h2{margin:5px 0 0;font-family:'DM Sans',sans-serif;font-size:20px}
+.help-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.help-grid article{min-width:0;padding:17px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
+.help-grid h3{margin:0 0 8px;font-size:14px}
+.help-grid p{margin:0 0 13px;color:var(--muted);font-size:12px;line-height:1.65}
+.help-grid a{color:var(--accent);font-size:12px;font-weight:700;text-decoration:none}
+.help-grid a:hover{text-decoration:underline}
+body[data-page="overview"] #dashboard>:not(.topbar):not(.hero):not(.stats):not(.section-head):not(.content-grid):not(.lower-grid):not(.dashboard-footer){display:none!important}
+body[data-page="stylist"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#aiStylist),
+body[data-page="body"] #dashboard>:not(.topbar):not(.dashboard-footer):not(.content-grid):not(#bodyShapeAnalysis),
+body[data-page="wardrobe"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#digitalWardrobe),
+body[data-page="tryon"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#virtual-try-on),
+body[data-page="planner"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#weekly-outfit-planner),
+body[data-page="color"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#personal-colour-stylist),
+body[data-page="shopping"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#smart-shopping-assistant),
+body[data-page="inspiration"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#style-inspiration),
+body[data-page="outfits"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#outfits),
+body[data-page="settings"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#settings),
+body[data-page="help"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#helpSupport),
+body[data-page="collections"] #dashboard>:not(.topbar):not(.dashboard-footer):not(#planner){display:none!important}
+body[data-page="body"] #dashboard>.content-grid{display:grid;grid-template-columns:1fr;margin-top:20px}
+body[data-page="body"] #dashboard>.content-grid>.panel:not(#body){display:none!important}
+body[data-page="collections"] #dashboard>#planner{display:block}
+body[data-page="collections"] #dashboard>#planner>.panel:not(#categories){display:none!important}
+body[data-page="collections"] #dashboard>#planner>#categories{display:block}
+body[data-page="overview"] #dashboard>.section-head{margin-top:22px}
+body[data-page="overview"] #dashboard>.content-grid{margin-top:0}
+body[data-page="overview"] #dashboard>.lower-grid{margin-top:18px}
+body[data-page="overview"] .dashboard-footer{display:block}
+body:not([data-page="overview"]) #dashboard>.dashboard-footer{margin-top:28px}
+body[data-page="body"] #dashboard>#bodyShapeAnalysis{margin-top:20px}
+body[data-page="stylist"] #dashboard>#aiStylist,
+body[data-page="wardrobe"] #dashboard>#digitalWardrobe,
+body[data-page="tryon"] #dashboard>#virtual-try-on,
+body[data-page="planner"] #dashboard>#weekly-outfit-planner,
+body[data-page="color"] #dashboard>#personal-colour-stylist,
+body[data-page="shopping"] #dashboard>#smart-shopping-assistant,
+body[data-page="inspiration"] #dashboard>#style-inspiration,
+body[data-page="outfits"] #dashboard>#outfits,
+body[data-page="settings"] #dashboard>#settings,
+body[data-page="help"] #dashboard>#helpSupport{display:block}
+body[data-page="stylist"] #dashboard>#aiStylist,
+body[data-page="wardrobe"] #dashboard>#digitalWardrobe,
+body[data-page="tryon"] #dashboard>#virtual-try-on,
+body[data-page="planner"] #dashboard>#weekly-outfit-planner,
+body[data-page="color"] #dashboard>#personal-colour-stylist,
+body[data-page="shopping"] #dashboard>#smart-shopping-assistant,
+body[data-page="inspiration"] #dashboard>#style-inspiration,
+body[data-page="outfits"] #dashboard>#outfits,
+body[data-page="settings"] #dashboard>#settings,
+body[data-page="help"] #dashboard>#helpSupport{margin-top:20px}
+body:not([data-page="outfits"]) .top-actions .search{display:none}
+body[data-page="outfits"] .top-actions .search{display:block}
+@media(max-width:520px){.profile-settings .panel-head{gap:8px}.profile-settings .panel-head h2{font-size:18px}.settings-grid{grid-template-columns:1fr}.settings-section+.settings-section{margin-top:20px;padding-top:18px}.settings-actions{align-items:stretch;flex-direction:column}.settings-save{width:100%}}
+@media(max-width:760px){.sidebar{overflow-y:auto}.help-grid{grid-template-columns:1fr}}

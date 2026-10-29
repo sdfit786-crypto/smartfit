@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f4f6f2">
+	<title>Smart FD Fit | Style that fits you</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+	
+<link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+	<div class="shell">
+		<header class="topbar">
+			<a class="brand" href="index.html" aria-label="Smart FD Fit home"><span class="brand-mark" aria-hidden="true">✳</span><span><span class="brand-name">Smart FD Fit</span><span class="brand-tagline">Style that fits you</span></span></a>
+			<nav class="top-links" aria-label="Account"><a href="smart-fd-fit-login.html">Log in</a><a href="smart-fd-fit-register.html">Create profile</a></nav>
+		</header>
+		<main>
+			<section class="intro" aria-labelledby="page-title">
+				<div><div class="eyebrow">A better fit starts with you</div><h1 id="page-title">Smart FD Fit</h1></div>
+				<div class="intro-copy"><p>Find your fit, build your style profile, and keep your favorite outfit ideas close.</p><span>Choose a collection to get started.</span></div>
+			</section>
+			<section class="audiences" aria-label="Choose a style collection">
+				<button class="audience" type="button" data-audience="male" aria-pressed="false">
+					<img src="SD-Fit-Image-Assets/boys/style-references-boys.jpg" alt="Boys style-reference collection" fetchpriority="high">
+					<span class="audience-copy"><span><strong>Boys</strong><br><span>Fit guides and style ideas</span></span><b aria-hidden="true">↗</b></span>
+				</button>
+				<button class="audience" type="button" data-audience="female" aria-pressed="false">
+					<img src="SD-Fit-Image-Assets/girls/style-references-girls.jpg" alt="Girls style-reference collection" fetchpriority="high">
+					<span class="audience-copy"><span><strong>Girls</strong><br><span>Fit guides and style ideas</span></span><b aria-hidden="true">↗</b></span>
+				</button>
+			</section>
+			<section class="account-actions" aria-label="Continue to your style account">
+				<span class="selection-hint" id="selectionHint" role="status">Select a collection to personalize your profile.</span>
+				<span class="signed-in" id="signedIn" aria-live="polite"></span>
+				<div class="actions" id="accountActions"><a class="action secondary" href="smart-fd-fit-login.html">Log in</a><a class="action primary" id="createProfile" href="smart-fd-fit-register.html" aria-disabled="true">Create profile</a></div>
+			</section>
+		</main>
+		<footer class="footer"><strong>SMART FD FIT</strong><span>Fit guidance is personal. Comfort and preference come first.</span></footer>
+	</div>
+	
+<script type="module" src="assets/js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,1231 @@
+{
+  "name": "SD Fit Full Clothing Catalog",
+  "version": "1.0",
+  "note": "Individual image tiles cropped from a generated overview. They are visual catalogue placeholders, not real product photos or transparent-background cutouts. Garment sizing should come from verified product charts.",
+  "items": [
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "white_tshirt",
+      "display_name": "White Tshirt",
+      "relative_path": "boys/topwear/tshirts/white_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "black_tshirt",
+      "display_name": "Black Tshirt",
+      "relative_path": "boys/topwear/tshirts/black_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "navy_tshirt",
+      "display_name": "Navy Tshirt",
+      "relative_path": "boys/topwear/tshirts/navy_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "grey_tshirt",
+      "display_name": "Grey Tshirt",
+      "relative_path": "boys/topwear/tshirts/grey_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "olive_tshirt",
+      "display_name": "Olive Tshirt",
+      "relative_path": "boys/topwear/tshirts/olive_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "beige_tshirt",
+      "display_name": "Beige Tshirt",
+      "relative_path": "boys/topwear/tshirts/beige_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "red_tshirt",
+      "display_name": "Red Tshirt",
+      "relative_path": "boys/topwear/tshirts/red_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "maroon_tshirt",
+      "display_name": "Maroon Tshirt",
+      "relative_path": "boys/topwear/tshirts/maroon_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "green_tshirt",
+      "display_name": "Green Tshirt",
+      "relative_path": "boys/topwear/tshirts/green_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "T-shirts",
+      "item_id": "blue_tshirt",
+      "display_name": "Blue Tshirt",
+      "relative_path": "boys/topwear/tshirts/blue_tshirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shirts",
+      "item_id": "formal_shirt",
+      "display_name": "Formal Shirt",
+      "relative_path": "boys/topwear/shirts/formal_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shirts",
+      "item_id": "checked_shirt",
+      "display_name": "Checked Shirt",
+      "relative_path": "boys/topwear/shirts/checked_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shirts",
+      "item_id": "denim_shirt",
+      "display_name": "Denim Shirt",
+      "relative_path": "boys/topwear/shirts/denim_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shirts",
+      "item_id": "plaid_shirt",
+      "display_name": "Plaid Shirt",
+      "relative_path": "boys/topwear/shirts/plaid_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shirts",
+      "item_id": "linen_shirt",
+      "display_name": "Linen Shirt",
+      "relative_path": "boys/topwear/shirts/linen_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shirts",
+      "item_id": "oversized_shirt",
+      "display_name": "Oversized Shirt",
+      "relative_path": "boys/topwear/shirts/oversized_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Hoodies & Sweatshirts",
+      "item_id": "black_hoodie",
+      "display_name": "Black Hoodie",
+      "relative_path": "boys/topwear/hoodies_sweatshirts/black_hoodie.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Hoodies & Sweatshirts",
+      "item_id": "grey_hoodie",
+      "display_name": "Grey Hoodie",
+      "relative_path": "boys/topwear/hoodies_sweatshirts/grey_hoodie.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Hoodies & Sweatshirts",
+      "item_id": "navy_hoodie",
+      "display_name": "Navy Hoodie",
+      "relative_path": "boys/topwear/hoodies_sweatshirts/navy_hoodie.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Hoodies & Sweatshirts",
+      "item_id": "beige_hoodie",
+      "display_name": "Beige Hoodie",
+      "relative_path": "boys/topwear/hoodies_sweatshirts/beige_hoodie.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Hoodies & Sweatshirts",
+      "item_id": "green_hoodie",
+      "display_name": "Green Hoodie",
+      "relative_path": "boys/topwear/hoodies_sweatshirts/green_hoodie.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Hoodies & Sweatshirts",
+      "item_id": "red_hoodie",
+      "display_name": "Red Hoodie",
+      "relative_path": "boys/topwear/hoodies_sweatshirts/red_hoodie.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jackets",
+      "item_id": "denim_jacket",
+      "display_name": "Denim Jacket",
+      "relative_path": "boys/topwear/jackets/denim_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jackets",
+      "item_id": "leather_jacket",
+      "display_name": "Leather Jacket",
+      "relative_path": "boys/topwear/jackets/leather_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jackets",
+      "item_id": "bomber_jacket",
+      "display_name": "Bomber Jacket",
+      "relative_path": "boys/topwear/jackets/bomber_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jackets",
+      "item_id": "varsity_jacket",
+      "display_name": "Varsity Jacket",
+      "relative_path": "boys/topwear/jackets/varsity_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jackets",
+      "item_id": "puffer_jacket",
+      "display_name": "Puffer Jacket",
+      "relative_path": "boys/topwear/jackets/puffer_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jackets",
+      "item_id": "blazer",
+      "display_name": "Blazer",
+      "relative_path": "boys/topwear/jackets/blazer.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jeans",
+      "item_id": "slim_jeans",
+      "display_name": "Slim Jeans",
+      "relative_path": "boys/bottomwear/jeans/slim_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jeans",
+      "item_id": "regular_jeans",
+      "display_name": "Regular Jeans",
+      "relative_path": "boys/bottomwear/jeans/regular_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jeans",
+      "item_id": "straight_jeans",
+      "display_name": "Straight Jeans",
+      "relative_path": "boys/bottomwear/jeans/straight_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jeans",
+      "item_id": "relaxed_jeans",
+      "display_name": "Relaxed Jeans",
+      "relative_path": "boys/bottomwear/jeans/relaxed_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jeans",
+      "item_id": "baggy_jeans",
+      "display_name": "Baggy Jeans",
+      "relative_path": "boys/bottomwear/jeans/baggy_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Jeans",
+      "item_id": "cargo_jeans",
+      "display_name": "Cargo Jeans",
+      "relative_path": "boys/bottomwear/jeans/cargo_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Chinos & Trousers",
+      "item_id": "formal_trousers",
+      "display_name": "Formal Trousers",
+      "relative_path": "boys/bottomwear/trousers/formal_trousers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Chinos & Trousers",
+      "item_id": "chinos",
+      "display_name": "Chinos",
+      "relative_path": "boys/bottomwear/trousers/chinos.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Chinos & Trousers",
+      "item_id": "cargo_pants",
+      "display_name": "Cargo Pants",
+      "relative_path": "boys/bottomwear/trousers/cargo_pants.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Chinos & Trousers",
+      "item_id": "linen_trousers",
+      "display_name": "Linen Trousers",
+      "relative_path": "boys/bottomwear/trousers/linen_trousers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Chinos & Trousers",
+      "item_id": "joggers",
+      "display_name": "Joggers",
+      "relative_path": "boys/bottomwear/trousers/joggers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Chinos & Trousers",
+      "item_id": "shorts",
+      "display_name": "Shorts",
+      "relative_path": "boys/bottomwear/trousers/shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shorts",
+      "item_id": "sports_shorts",
+      "display_name": "Sports Shorts",
+      "relative_path": "boys/bottomwear/shorts/sports_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shorts",
+      "item_id": "casual_shorts",
+      "display_name": "Casual Shorts",
+      "relative_path": "boys/bottomwear/shorts/casual_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shorts",
+      "item_id": "cargo_shorts",
+      "display_name": "Cargo Shorts",
+      "relative_path": "boys/bottomwear/shorts/cargo_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shorts",
+      "item_id": "denim_shorts",
+      "display_name": "Denim Shorts",
+      "relative_path": "boys/bottomwear/shorts/denim_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shorts",
+      "item_id": "swim_shorts",
+      "display_name": "Swim Shorts",
+      "relative_path": "boys/bottomwear/shorts/swim_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Shorts",
+      "item_id": "gym_shorts",
+      "display_name": "Gym Shorts",
+      "relative_path": "boys/bottomwear/shorts/gym_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Ethnic Wear",
+      "item_id": "kurta",
+      "display_name": "Kurta",
+      "relative_path": "boys/ethnicwear/kurta.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Ethnic Wear",
+      "item_id": "kurta_pajama",
+      "display_name": "Kurta Pajama",
+      "relative_path": "boys/ethnicwear/kurta_pajama.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Ethnic Wear",
+      "item_id": "nehru_jacket",
+      "display_name": "Nehru Jacket",
+      "relative_path": "boys/ethnicwear/nehru_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Ethnic Wear",
+      "item_id": "sherwani",
+      "display_name": "Sherwani",
+      "relative_path": "boys/ethnicwear/sherwani.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Ethnic Wear",
+      "item_id": "indo_western",
+      "display_name": "Indo Western",
+      "relative_path": "boys/ethnicwear/indo_western.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "sneakers",
+      "display_name": "Sneakers",
+      "relative_path": "boys/footwear/sneakers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "running_shoes",
+      "display_name": "Running Shoes",
+      "relative_path": "boys/footwear/running_shoes.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "casual_shoes",
+      "display_name": "Casual Shoes",
+      "relative_path": "boys/footwear/casual_shoes.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "formal_shoes",
+      "display_name": "Formal Shoes",
+      "relative_path": "boys/footwear/formal_shoes.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "boots",
+      "display_name": "Boots",
+      "relative_path": "boys/footwear/boots.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "sandals",
+      "display_name": "Sandals",
+      "relative_path": "boys/footwear/sandals.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Footwear",
+      "item_id": "slides",
+      "display_name": "Slides",
+      "relative_path": "boys/footwear/slides.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Accessories",
+      "item_id": "cap",
+      "display_name": "Cap",
+      "relative_path": "boys/accessories/cap.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Accessories",
+      "item_id": "watch",
+      "display_name": "Watch",
+      "relative_path": "boys/accessories/watch.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Accessories",
+      "item_id": "sunglasses",
+      "display_name": "Sunglasses",
+      "relative_path": "boys/accessories/sunglasses.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Accessories",
+      "item_id": "belt",
+      "display_name": "Belt",
+      "relative_path": "boys/accessories/belt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Accessories",
+      "item_id": "backpack",
+      "display_name": "Backpack",
+      "relative_path": "boys/accessories/backpack.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "boys",
+      "category": "Accessories",
+      "item_id": "chain",
+      "display_name": "Chain",
+      "relative_path": "boys/accessories/chain.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Tops",
+      "item_id": "crop_top",
+      "display_name": "Crop Top",
+      "relative_path": "girls/topwear/tops/crop_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Tops",
+      "item_id": "tank_top",
+      "display_name": "Tank Top",
+      "relative_path": "girls/topwear/tops/tank_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Tops",
+      "item_id": "basic_top",
+      "display_name": "Basic Top",
+      "relative_path": "girls/topwear/tops/basic_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Tops",
+      "item_id": "fitted_top",
+      "display_name": "Fitted Top",
+      "relative_path": "girls/topwear/tops/fitted_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Tops",
+      "item_id": "ruffle_top",
+      "display_name": "Ruffle Top",
+      "relative_path": "girls/topwear/tops/ruffle_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Tops",
+      "item_id": "peplum_top",
+      "display_name": "Peplum Top",
+      "relative_path": "girls/topwear/tops/peplum_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shirts & Blouses",
+      "item_id": "formal_shirt",
+      "display_name": "Formal Shirt",
+      "relative_path": "girls/topwear/shirts_blouses/formal_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shirts & Blouses",
+      "item_id": "casual_shirt",
+      "display_name": "Casual Shirt",
+      "relative_path": "girls/topwear/shirts_blouses/casual_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shirts & Blouses",
+      "item_id": "denim_shirt",
+      "display_name": "Denim Shirt",
+      "relative_path": "girls/topwear/shirts_blouses/denim_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shirts & Blouses",
+      "item_id": "satin_blouse",
+      "display_name": "Satin Blouse",
+      "relative_path": "girls/topwear/shirts_blouses/satin_blouse.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shirts & Blouses",
+      "item_id": "oversized_shirt",
+      "display_name": "Oversized Shirt",
+      "relative_path": "girls/topwear/shirts_blouses/oversized_shirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shirts & Blouses",
+      "item_id": "wrap_top",
+      "display_name": "Wrap Top",
+      "relative_path": "girls/topwear/shirts_blouses/wrap_top.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Kurtis & Ethnic Tops",
+      "item_id": "straight_kurti",
+      "display_name": "Straight Kurti",
+      "relative_path": "girls/ethnicwear/tops_kurtis/straight_kurti.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Kurtis & Ethnic Tops",
+      "item_id": "anarkali_kurti",
+      "display_name": "Anarkali Kurti",
+      "relative_path": "girls/ethnicwear/tops_kurtis/anarkali_kurti.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Kurtis & Ethnic Tops",
+      "item_id": "short_kurti",
+      "display_name": "Short Kurti",
+      "relative_path": "girls/ethnicwear/tops_kurtis/short_kurti.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Kurtis & Ethnic Tops",
+      "item_id": "peplum_kurti",
+      "display_name": "Peplum Kurti",
+      "relative_path": "girls/ethnicwear/tops_kurtis/peplum_kurti.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Kurtis & Ethnic Tops",
+      "item_id": "tunic",
+      "display_name": "Tunic",
+      "relative_path": "girls/ethnicwear/tops_kurtis/tunic.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Kurtis & Ethnic Tops",
+      "item_id": "embroidered_kurti",
+      "display_name": "Embroidered Kurti",
+      "relative_path": "girls/ethnicwear/tops_kurtis/embroidered_kurti.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Dresses",
+      "item_id": "bodycon_dress",
+      "display_name": "Bodycon Dress",
+      "relative_path": "girls/dresses/bodycon_dress.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Dresses",
+      "item_id": "aline_dress",
+      "display_name": "Aline Dress",
+      "relative_path": "girls/dresses/aline_dress.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Dresses",
+      "item_id": "midi_dress",
+      "display_name": "Midi Dress",
+      "relative_path": "girls/dresses/midi_dress.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Dresses",
+      "item_id": "maxi_dress",
+      "display_name": "Maxi Dress",
+      "relative_path": "girls/dresses/maxi_dress.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Dresses",
+      "item_id": "party_dress",
+      "display_name": "Party Dress",
+      "relative_path": "girls/dresses/party_dress.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Dresses",
+      "item_id": "co_ord_set",
+      "display_name": "Co Ord Set",
+      "relative_path": "girls/dresses/co_ord_set.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Jeans",
+      "item_id": "skinny_jeans",
+      "display_name": "Skinny Jeans",
+      "relative_path": "girls/bottomwear/jeans/skinny_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Jeans",
+      "item_id": "straight_jeans",
+      "display_name": "Straight Jeans",
+      "relative_path": "girls/bottomwear/jeans/straight_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Jeans",
+      "item_id": "wide_leg_jeans",
+      "display_name": "Wide Leg Jeans",
+      "relative_path": "girls/bottomwear/jeans/wide_leg_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Jeans",
+      "item_id": "flared_jeans",
+      "display_name": "Flared Jeans",
+      "relative_path": "girls/bottomwear/jeans/flared_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Jeans",
+      "item_id": "mom_fit_jeans",
+      "display_name": "Mom Fit Jeans",
+      "relative_path": "girls/bottomwear/jeans/mom_fit_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Jeans",
+      "item_id": "baggy_jeans",
+      "display_name": "Baggy Jeans",
+      "relative_path": "girls/bottomwear/jeans/baggy_jeans.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Trousers & Pants",
+      "item_id": "formal_trousers",
+      "display_name": "Formal Trousers",
+      "relative_path": "girls/bottomwear/trousers/formal_trousers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Trousers & Pants",
+      "item_id": "palazzo",
+      "display_name": "Palazzo",
+      "relative_path": "girls/bottomwear/trousers/palazzo.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Trousers & Pants",
+      "item_id": "culottes",
+      "display_name": "Culottes",
+      "relative_path": "girls/bottomwear/trousers/culottes.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Trousers & Pants",
+      "item_id": "cargo_pants",
+      "display_name": "Cargo Pants",
+      "relative_path": "girls/bottomwear/trousers/cargo_pants.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Trousers & Pants",
+      "item_id": "joggers",
+      "display_name": "Joggers",
+      "relative_path": "girls/bottomwear/trousers/joggers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Trousers & Pants",
+      "item_id": "linen_pants",
+      "display_name": "Linen Pants",
+      "relative_path": "girls/bottomwear/trousers/linen_pants.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shorts & Skirts",
+      "item_id": "denim_shorts",
+      "display_name": "Denim Shorts",
+      "relative_path": "girls/bottomwear/shorts_skirts/denim_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shorts & Skirts",
+      "item_id": "cotton_shorts",
+      "display_name": "Cotton Shorts",
+      "relative_path": "girls/bottomwear/shorts_skirts/cotton_shorts.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shorts & Skirts",
+      "item_id": "skort",
+      "display_name": "Skort",
+      "relative_path": "girls/bottomwear/shorts_skirts/skort.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shorts & Skirts",
+      "item_id": "mini_skirt",
+      "display_name": "Mini Skirt",
+      "relative_path": "girls/bottomwear/shorts_skirts/mini_skirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shorts & Skirts",
+      "item_id": "midi_skirt",
+      "display_name": "Midi Skirt",
+      "relative_path": "girls/bottomwear/shorts_skirts/midi_skirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Shorts & Skirts",
+      "item_id": "maxi_skirt",
+      "display_name": "Maxi Skirt",
+      "relative_path": "girls/bottomwear/shorts_skirts/maxi_skirt.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Ethnic Bottoms & Dupatta",
+      "item_id": "leggings",
+      "display_name": "Leggings",
+      "relative_path": "girls/ethnicwear/bottoms_dupatta/leggings.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Ethnic Bottoms & Dupatta",
+      "item_id": "churidar",
+      "display_name": "Churidar",
+      "relative_path": "girls/ethnicwear/bottoms_dupatta/churidar.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Ethnic Bottoms & Dupatta",
+      "item_id": "ethnic_palazzo",
+      "display_name": "Ethnic Palazzo",
+      "relative_path": "girls/ethnicwear/bottoms_dupatta/ethnic_palazzo.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Ethnic Bottoms & Dupatta",
+      "item_id": "sharara",
+      "display_name": "Sharara",
+      "relative_path": "girls/ethnicwear/bottoms_dupatta/sharara.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Ethnic Bottoms & Dupatta",
+      "item_id": "lehenga",
+      "display_name": "Lehenga",
+      "relative_path": "girls/ethnicwear/bottoms_dupatta/lehenga.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Ethnic Bottoms & Dupatta",
+      "item_id": "dupatta",
+      "display_name": "Dupatta",
+      "relative_path": "girls/ethnicwear/bottoms_dupatta/dupatta.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Outerwear",
+      "item_id": "denim_jacket",
+      "display_name": "Denim Jacket",
+      "relative_path": "girls/outerwear/denim_jacket.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Outerwear",
+      "item_id": "blazer",
+      "display_name": "Blazer",
+      "relative_path": "girls/outerwear/blazer.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Outerwear",
+      "item_id": "cardigan",
+      "display_name": "Cardigan",
+      "relative_path": "girls/outerwear/cardigan.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Outerwear",
+      "item_id": "sweater",
+      "display_name": "Sweater",
+      "relative_path": "girls/outerwear/sweater.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Outerwear",
+      "item_id": "coat",
+      "display_name": "Coat",
+      "relative_path": "girls/outerwear/coat.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Outerwear",
+      "item_id": "shrug",
+      "display_name": "Shrug",
+      "relative_path": "girls/outerwear/shrug.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Lingerie & Innerwear",
+      "item_id": "bra",
+      "display_name": "Bra",
+      "relative_path": "girls/innerwear/bra.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Lingerie & Innerwear",
+      "item_id": "bralette",
+      "display_name": "Bralette",
+      "relative_path": "girls/innerwear/bralette.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Lingerie & Innerwear",
+      "item_id": "sports_bra",
+      "display_name": "Sports Bra",
+      "relative_path": "girls/innerwear/sports_bra.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Lingerie & Innerwear",
+      "item_id": "panty",
+      "display_name": "Panty",
+      "relative_path": "girls/innerwear/panty.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Lingerie & Innerwear",
+      "item_id": "shapewear",
+      "display_name": "Shapewear",
+      "relative_path": "girls/innerwear/shapewear.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Lingerie & Innerwear",
+      "item_id": "slip",
+      "display_name": "Slip",
+      "relative_path": "girls/innerwear/slip.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Footwear",
+      "item_id": "sneakers",
+      "display_name": "Sneakers",
+      "relative_path": "girls/footwear/sneakers.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Footwear",
+      "item_id": "heels",
+      "display_name": "Heels",
+      "relative_path": "girls/footwear/heels.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Footwear",
+      "item_id": "flats",
+      "display_name": "Flats",
+      "relative_path": "girls/footwear/flats.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Footwear",
+      "item_id": "sandals",
+      "display_name": "Sandals",
+      "relative_path": "girls/footwear/sandals.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Footwear",
+      "item_id": "wedges",
+      "display_name": "Wedges",
+      "relative_path": "girls/footwear/wedges.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Footwear",
+      "item_id": "boots",
+      "display_name": "Boots",
+      "relative_path": "girls/footwear/boots.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Accessories",
+      "item_id": "handbag",
+      "display_name": "Handbag",
+      "relative_path": "girls/accessories/handbag.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Accessories",
+      "item_id": "watch",
+      "display_name": "Watch",
+      "relative_path": "girls/accessories/watch.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Accessories",
+      "item_id": "sunglasses",
+      "display_name": "Sunglasses",
+      "relative_path": "girls/accessories/sunglasses.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Accessories",
+      "item_id": "earrings",
+      "display_name": "Earrings",
+      "relative_path": "girls/accessories/earrings.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Accessories",
+      "item_id": "necklace",
+      "display_name": "Necklace",
+      "relative_path": "girls/accessories/necklace.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    },
+    {
+      "audience": "girls",
+      "category": "Accessories",
+      "item_id": "hair_clip",
+      "display_name": "Hair Clip",
+      "relative_path": "girls/accessories/hair_clip.png",
+      "image_format": "PNG",
+      "recommended_use": "individual catalog item thumbnail; use product-level size chart for fit"
+    }
+  ]
+}

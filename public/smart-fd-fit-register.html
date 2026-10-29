@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart FD Fit | Create Account</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="assets/css/register.css">
+</head>
+<body>
+<div class="page">
+  <aside class="visual">
+    <div class="brand"><div class="brand-mark" aria-hidden="true">♙</div><div><div class="brand-name">Smart FD Fit</div><div class="tagline">Style That Fits You Perfectly</div></div></div>
+    <div class="visual-copy">
+      <div class="eyebrow">Your style journey starts here</div>
+      <h1>Made for your body.<br><span>Styled for you.</span></h1>
+      <p class="intro">Tell us a little about yourself so we can help you discover fits, silhouettes and outfits that feel uniquely you.</p>
+      <div class="perks">
+        <div class="perk"><div class="perk-icon">♧</div><div><strong>Know Your Body</strong><small>Build a profile around your measurements and proportions.</small></div></div>
+        <div class="perk"><div class="perk-icon">♙</div><div><strong>Personalized Style</strong><small>Get outfit ideas suited to your preferences and lifestyle.</small></div></div>
+        <div class="perk"><div class="perk-icon">✧</div><div><strong>Feel Confident</strong><small>Find styles that help you feel comfortable and yourself.</small></div></div>
+      </div>
+    </div>
+    <div class="quote"><b>“</b>Fashion is about something that comes from within you.<small>— Ralph Lauren</small></div>
+  </aside>
+  <main class="form-side">
+    <form class="form-card" id="registerForm">
+      <div class="form-head"><h2>Create Your Profile</h2><p>A few details help us find your perfect fit.</p></div>
+      <div class="progress" aria-label="Registration progress"><span></span><span></span><span></span></div>
+      <div class="section-title"><span class="num">1</span> Personal information</div>
+      <div class="grid">
+        <div class="field full"><label for="name">Full name *</label><input class="control" id="name" name="name" type="text" placeholder="Enter your full name" autocomplete="name" required /></div>
+        <div class="field"><label for="email">Email address *</label><input class="control" id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required /></div>
+        <div class="field"><label for="password">Password *</label><input class="control" id="password" name="password" type="password" placeholder="At least 8 characters" autocomplete="new-password" minlength="8" required /></div>
+        <div class="field"><label for="age">Age *</label><input class="control" id="age" name="age" type="number" min="13" max="100" placeholder="Your age" required /><div class="hint">You must be at least 13.</div></div>
+        <div class="field"><label for="location">Location *</label><input class="control" id="location" name="location" type="text" placeholder="City, state or region" autocomplete="address-level2" required /></div>
+        <div class="field full"><label>Sex / dashboard preference *</label><div class="sex-options">
+          <div class="sex-option"><input type="radio" id="female" name="sex" value="female" required><label for="female">♀ Female</label></div>
+          <div class="sex-option"><input type="radio" id="male" name="sex" value="male"><label for="male">♂ Male</label></div>
+          <div class="sex-option"><input type="radio" id="other" name="sex" value="prefer-not-to-say"><label for="other">Prefer not to say</label></div>
+        </div><div class="hint">Used to personalize your style dashboard. You can change your preference later.</div></div>
+      </div>
+      <div class="section-title"><span class="num">2</span> Body measurements</div>
+      <p class="measure-note">Enter measurements if you know them. These help with fit recommendations; you can leave them blank and add them later. Measure over light clothing for best results.</p>
+      <div class="grid">
+        <div class="field"><label for="height">Height</label><div class="unit-wrap"><input class="control" id="height" name="height" type="number" min="80" max="250" placeholder="e.g. 170"/><span class="unit">cm</span></div></div>
+        <div class="field"><label for="weight">Weight</label><div class="unit-wrap"><input class="control" id="weight" name="weight" type="number" min="20" max="350" step="0.1" placeholder="e.g. 62"/><span class="unit">kg</span></div></div>
+        <div class="field"><label for="chest">Chest / bust</label><div class="unit-wrap"><input class="control" id="chest" name="chest" type="number" min="30" max="200" step="0.5" placeholder="Measurement"/><span class="unit">cm</span></div></div>
+        <div class="field"><label for="waist">Waist</label><div class="unit-wrap"><input class="control" id="waist" name="waist" type="number" min="30" max="200" step="0.5" placeholder="Measurement"/><span class="unit">cm</span></div></div>
+        <div class="field"><label for="hips">Hips</label><div class="unit-wrap"><input class="control" id="hips" name="hips" type="number" min="30" max="220" step="0.5" placeholder="Measurement"/><span class="unit">cm</span></div></div>
+        <div class="field"><label for="shoulder">Shoulder width</label><div class="unit-wrap"><input class="control" id="shoulder" name="shoulder" type="number" min="20" max="100" step="0.5" placeholder="Measurement"/><span class="unit">cm</span></div></div>
+      </div>
+      <label class="check-row"><input type="checkbox" id="consent" required><span>I agree that Smart FD Fit can use the information I provide to personalize my style and clothing-fit recommendations. I understand I can update or remove my profile later. *</span></label>
+      <button class="submit" type="submit">Create My Profile&nbsp; →</button>
+      <div class="message" id="successMessage" role="status" aria-live="polite"></div>
+      <p class="signin">Already have an account? <a href="smart-fd-fit-login.html">Log In</a></p>
+      <div class="privacy">Your measurements are personal. Only collect and store what your app needs.</div>
+    </form>
+  </main>
+</div>
+
+<script type="module" src="assets/js/register.js"></script>
+</body>
+</html>

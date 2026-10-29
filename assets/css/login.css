@@ -1,0 +1,259 @@
+
+    :root {
+      --wine: #720d3f;
+      --wine-dark: #570b32;
+      --rose: #bd3d67;
+      --ink: #2d202b;
+      --muted: #77737d;
+      --border: #dedce1;
+      --blush: #f9e8e8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 0;
+      background: #fffafa;
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+    }
+    .page {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 52.4% 47.6%;
+      border: 1.5px solid #bd7787;
+      border-radius: 15px;
+      overflow: hidden;
+      background: #fffafa;
+    }
+    .showcase {
+      position: relative;
+      min-height: 100vh;
+      padding: 48px 5.4% 30px 7.2%;
+      overflow: hidden;
+      isolation: isolate;
+      background:
+        radial-gradient(ellipse at 70% 48%, rgba(244, 197, 199, .34), transparent 45%),
+        radial-gradient(ellipse at 38% 94%, rgba(250, 222, 224, .5), transparent 36%),
+        linear-gradient(125deg, #fff9f8 0%, #fff6f5 56%, #fce9e8 100%);
+    }
+    .showcase::before {
+      content: '';
+      position: absolute;
+      width: 430px;
+      height: 590px;
+      right: -85px;
+      top: 90px;
+      z-index: -1;
+      border-radius: 48% 0 0 48%;
+      background: linear-gradient(145deg, rgba(255,255,255,.55), rgba(243,190,190,.32));
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      position: relative;
+      z-index: 2;
+    }
+    .brand-mark {
+      width: 67px;
+      height: 67px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      background: #f9e5e6;
+      color: #651039;
+    }
+    .brand-mark svg { width: 40px; height: 49px; }
+    .brand-name {
+      margin: 0;
+      font: 700 35px/1.1 'Playfair Display', Georgia, serif;
+      letter-spacing: -.7px;
+      color: #5d1636;
+    }
+    .brand-tagline { margin: 5px 0 0; font-size: 16px; color: #29232b; }
+    .intro {
+      position: relative;
+      z-index: 2;
+      max-width: 370px;
+      margin: 57px 0 0 4px;
+    }
+    .intro h2 {
+      margin: 0 0 19px;
+      font: 700 clamp(35px, 3.15vw, 48px)/1.18 'Playfair Display', Georgia, serif;
+      letter-spacing: -.8px;
+      color: #2e202b;
+    }
+    .intro h2 span { color: var(--rose); }
+    .intro > p {
+      max-width: 340px;
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.72;
+      color: #302b33;
+    }
+    .features { display: grid; gap: 22px; margin-top: 30px; }
+    .feature { display: flex; align-items: center; gap: 17px; }
+    .feature-icon {
+      display: grid;
+      place-items: center;
+      flex: 0 0 60px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: rgba(248, 224, 226, .86);
+      color: #7a1744;
+    }
+    .feature-icon svg { width: 30px; height: 34px; stroke: currentColor; }
+    .feature h3 { margin: 0 0 6px; font-size: 15px; font-weight: 700; }
+    .feature p { margin: 0; font-size: 13.5px; line-height: 1.55; color: #39333b; }
+    .fashion-art {
+      position: absolute;
+      z-index: 1;
+      right: -4px;
+      top: 9%;
+      width: 43%;
+      height: 73%;
+      pointer-events: none;
+      opacity: .94;
+    }
+    .fashion-art img {
+      width: 100%; height: 100%; object-fit: cover; object-position: 49% center;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 13%, black 100%);
+      mask-image: linear-gradient(to right, transparent 0%, black 13%, black 100%);
+    }
+    .quote {
+      position: absolute;
+      z-index: 2;
+      bottom: 10.5%;
+      left: 7.1%;
+      width: min(74%, 570px);
+      min-height: 105px;
+      display: flex;
+      align-items: flex-start;
+      gap: 23px;
+      padding: 22px 28px;
+      border: 1px solid rgba(230, 192, 196, .4);
+      border-radius: 15px;
+      background: rgba(247, 226, 227, .68);
+      backdrop-filter: blur(6px);
+    }
+    .quote-mark { color: #e5a8ae; font: 700 66px/.8 Georgia, serif; }
+    .quote p { margin: 4px 0 8px; font-size: 15px; line-height: 1.55; color: #51464e; }
+    .quote cite { color: #827981; font-style: normal; font-size: 14px; }
+    .login-side {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5.2% 7.5%;
+      background: linear-gradient(115deg, #fffafa, #fff 55%, #fffdfd);
+    }
+    .login-card {
+      width: 100%;
+      max-width: 595px;
+      padding: 72px 10.2% 67px;
+      border-radius: 21px;
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 15px 45px rgba(79, 35, 54, .075);
+    }
+    .login-card h1 {
+      margin: 0;
+      text-align: center;
+      font: 600 clamp(30px, 2.6vw, 39px)/1.25 'Playfair Display', Georgia, serif;
+      letter-spacing: -.5px;
+      color: #302632;
+    }
+    .subtitle { margin: 18px 0 42px; text-align: center; color: #66616c; font-size: 16px; }
+    .field { margin-bottom: 29px; }
+    .field label { display: block; margin-bottom: 10px; font-size: 14px; font-weight: 500; color: #27232b; }
+    .input-wrap { position: relative; }
+    .input-wrap > svg { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 23px; height: 23px; stroke: #666873; fill: none; stroke-width: 1.8; pointer-events: none; }
+    .input-wrap input {
+      width: 100%; height: 55px; padding: 0 48px 0 52px;
+      border: 1.3px solid var(--border); border-radius: 10px;
+      outline: none; background: #fff; color: #2b2630;
+      font: 400 14px 'DM Sans', sans-serif; transition: border-color .2s, box-shadow .2s;
+    }
+    .input-wrap input::placeholder { color: #8c8c98; }
+    .input-wrap input:focus { border-color: #a32a5b; box-shadow: 0 0 0 3px rgba(163,42,91,.09); }
+    .toggle-password {
+      position: absolute; right: 13px; top: 50%; transform: translateY(-50%);
+      display: grid; place-items: center; width: 28px; height: 30px; border: 0; padding: 0;
+      background: transparent; color: #696a73; cursor: pointer;
+    }
+    .toggle-password svg { width: 21px; height: 21px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+    .forgot-row { display: flex; justify-content: flex-end; margin-top: -15px; margin-bottom: 30px; }
+    a { color: #c51e5c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .forgot-row a { font-size: 14px; font-weight: 500; }
+    .login-button {
+      width: 100%; height: 57px; border: 0; border-radius: 10px;
+      color: white; background: linear-gradient(105deg, #74113f, #650d3b);
+      font: 600 16px 'DM Sans', sans-serif; cursor: pointer;
+      box-shadow: 0 4px 8px rgba(99, 10, 56, .08); transition: transform .18s, filter .18s;
+    }
+    .login-button:hover { filter: brightness(1.09); transform: translateY(-1px); }
+    .divider { display: flex; align-items: center; gap: 16px; margin: 32px 0 29px; color: #85818d; font-size: 14px; white-space: nowrap; }
+    .divider::before, .divider::after { content: ''; height: 1px; flex: 1; background: #e4e1e6; }
+    .social-button {
+      width: 100%; min-height: 54px; display: flex; align-items: center; justify-content: center; gap: 14px;
+      margin-bottom: 12px; padding: 10px 14px; border: 1.2px solid #e0dfe4; border-radius: 10px;
+      background: #fff; color: #26222b; font: 500 14px 'DM Sans', sans-serif; cursor: pointer;
+      transition: background .2s, border-color .2s;
+    }
+    .social-button:hover { background: #fff8fa; border-color: #d8b2c2; }
+    .social-button:disabled { opacity: .7; cursor: wait; }
+    .social-button svg { width: 25px; height: 25px; flex: 0 0 auto; }
+    .signup { margin: 34px 0 0; text-align: center; color: #6c6672; font-size: 15px; }
+    .signup a { margin-left: 5px; font-weight: 500; }
+    .message { display: none; margin: 0 0 18px; padding: 11px 13px; border-radius: 8px; font-size: 13px; line-height: 1.5; }
+    .message.show { display: block; }
+    .message.error { color: #8c173d; background: #fff0f3; border: 1px solid #f4cbd6; }
+    .message.success { color: #176b46; background: #edfff5; border: 1px solid #bce9d0; }
+    @media (min-width: 1600px) {
+      .showcase { padding-left: 7.2%; }
+      .intro { margin-top: 70px; }
+      .login-card { padding-top: 80px; padding-bottom: 74px; }
+    }
+    @media (max-width: 1100px) {
+      .page { grid-template-columns: 48% 52%; }
+      .showcase { padding-left: 6%; padding-right: 4%; }
+      .brand-name { font-size: 29px; }
+      .brand-mark { width: 58px; height: 58px; }
+      .intro { margin-top: 48px; max-width: 330px; }
+      .intro h2 { font-size: 37px; }
+      .fashion-art { width: 40%; opacity: .55; }
+      .quote { width: 83%; left: 6%; }
+      .login-side { padding: 5%; }
+      .login-card { padding: 55px 8%; }
+    }
+    @media (max-width: 760px) {
+      .page { display: block; border-radius: 0; border: 0; }
+      .showcase { min-height: auto; padding: 26px 7% 28px; }
+      .brand-mark { width: 50px; height: 50px; }
+      .brand-mark svg { width: 30px; height: 38px; }
+      .brand-name { font-size: 27px; }
+      .brand-tagline { font-size: 13px; }
+      .intro { margin: 24px 0 0; max-width: 100%; }
+      .intro h2 { max-width: 420px; font-size: clamp(34px, 8vw, 44px); }
+      .intro > p { max-width: 420px; font-size: 15px; }
+      .features, .fashion-art, .quote { display: none; }
+      .login-side { min-height: auto; padding: 24px 6% 36px; }
+      .login-card { max-width: 520px; padding: 30px 7%; border-radius: 17px; }
+      .login-card h1 { font-size: 32px; }
+      .subtitle { margin: 13px 0 30px; font-size: 14px; }
+      .field { margin-bottom: 23px; }
+      .signup { margin-top: 26px; }
+    }
+    .toggle-password:focus-visible,
+    .login-button:focus-visible,
+    .social-button:focus-visible,
+    .forgot-row a:focus-visible,
+    .signup a:focus-visible {
+      outline: 3px solid rgba(189, 61, 103, .32);
+      outline-offset: 3px;
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; scroll-behavior: auto !important; animation-duration: .01ms !important; } }
+  

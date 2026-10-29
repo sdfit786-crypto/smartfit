@@ -1,0 +1,13 @@
+﻿audience,category,size,primary_measurement,measurement_min_cm,measurement_max_cm,suggested_ease_min_cm,suggested_ease_max_cm,note
+boys,tops,XS,chest,82,88,4,8,Starter estimate only. Use actual garment/brand chart.
+boys,tops,S,chest,88,94,4,8,Starter estimate only. Use actual garment/brand chart.
+boys,tops,M,chest,94,100,4,8,Starter estimate only. Use actual garment/brand chart.
+boys,tops,L,chest,100,108,4,8,Starter estimate only. Use actual garment/brand chart.
+boys,tops,XL,chest,108,116,4,8,Starter estimate only. Use actual garment/brand chart.
+boys,tops,XXL,chest,116,124,4,8,Starter estimate only. Use actual garment/brand chart.
+girls,tops,XS,bust,76,82,2,8,Starter estimate only. Use actual garment/brand chart.
+girls,tops,S,bust,82,88,2,8,Starter estimate only. Use actual garment/brand chart.
+girls,tops,M,bust,88,96,2,8,Starter estimate only. Use actual garment/brand chart.
+girls,tops,L,bust,96,104,2,8,Starter estimate only. Use actual garment/brand chart.
+girls,tops,XL,bust,104,112,2,8,Starter estimate only. Use actual garment/brand chart.
+girls,tops,XXL,bust,112,122,2,8,Starter estimate only. Use actual garment/brand chart.

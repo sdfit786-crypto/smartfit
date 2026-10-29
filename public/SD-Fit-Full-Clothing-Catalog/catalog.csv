@@ -1,0 +1,137 @@
+﻿audience,category,item_id,display_name,relative_path,image_format,recommended_use
+boys,T-shirts,white_tshirt,White Tshirt,boys/topwear/tshirts/white_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,black_tshirt,Black Tshirt,boys/topwear/tshirts/black_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,navy_tshirt,Navy Tshirt,boys/topwear/tshirts/navy_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,grey_tshirt,Grey Tshirt,boys/topwear/tshirts/grey_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,olive_tshirt,Olive Tshirt,boys/topwear/tshirts/olive_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,beige_tshirt,Beige Tshirt,boys/topwear/tshirts/beige_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,red_tshirt,Red Tshirt,boys/topwear/tshirts/red_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,maroon_tshirt,Maroon Tshirt,boys/topwear/tshirts/maroon_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,green_tshirt,Green Tshirt,boys/topwear/tshirts/green_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,T-shirts,blue_tshirt,Blue Tshirt,boys/topwear/tshirts/blue_tshirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shirts,formal_shirt,Formal Shirt,boys/topwear/shirts/formal_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shirts,checked_shirt,Checked Shirt,boys/topwear/shirts/checked_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shirts,denim_shirt,Denim Shirt,boys/topwear/shirts/denim_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shirts,plaid_shirt,Plaid Shirt,boys/topwear/shirts/plaid_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shirts,linen_shirt,Linen Shirt,boys/topwear/shirts/linen_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shirts,oversized_shirt,Oversized Shirt,boys/topwear/shirts/oversized_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Hoodies & Sweatshirts,black_hoodie,Black Hoodie,boys/topwear/hoodies_sweatshirts/black_hoodie.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Hoodies & Sweatshirts,grey_hoodie,Grey Hoodie,boys/topwear/hoodies_sweatshirts/grey_hoodie.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Hoodies & Sweatshirts,navy_hoodie,Navy Hoodie,boys/topwear/hoodies_sweatshirts/navy_hoodie.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Hoodies & Sweatshirts,beige_hoodie,Beige Hoodie,boys/topwear/hoodies_sweatshirts/beige_hoodie.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Hoodies & Sweatshirts,green_hoodie,Green Hoodie,boys/topwear/hoodies_sweatshirts/green_hoodie.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Hoodies & Sweatshirts,red_hoodie,Red Hoodie,boys/topwear/hoodies_sweatshirts/red_hoodie.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jackets,denim_jacket,Denim Jacket,boys/topwear/jackets/denim_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jackets,leather_jacket,Leather Jacket,boys/topwear/jackets/leather_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jackets,bomber_jacket,Bomber Jacket,boys/topwear/jackets/bomber_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jackets,varsity_jacket,Varsity Jacket,boys/topwear/jackets/varsity_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jackets,puffer_jacket,Puffer Jacket,boys/topwear/jackets/puffer_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jackets,blazer,Blazer,boys/topwear/jackets/blazer.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jeans,slim_jeans,Slim Jeans,boys/bottomwear/jeans/slim_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jeans,regular_jeans,Regular Jeans,boys/bottomwear/jeans/regular_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jeans,straight_jeans,Straight Jeans,boys/bottomwear/jeans/straight_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jeans,relaxed_jeans,Relaxed Jeans,boys/bottomwear/jeans/relaxed_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jeans,baggy_jeans,Baggy Jeans,boys/bottomwear/jeans/baggy_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Jeans,cargo_jeans,Cargo Jeans,boys/bottomwear/jeans/cargo_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Chinos & Trousers,formal_trousers,Formal Trousers,boys/bottomwear/trousers/formal_trousers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Chinos & Trousers,chinos,Chinos,boys/bottomwear/trousers/chinos.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Chinos & Trousers,cargo_pants,Cargo Pants,boys/bottomwear/trousers/cargo_pants.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Chinos & Trousers,linen_trousers,Linen Trousers,boys/bottomwear/trousers/linen_trousers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Chinos & Trousers,joggers,Joggers,boys/bottomwear/trousers/joggers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Chinos & Trousers,shorts,Shorts,boys/bottomwear/trousers/shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shorts,sports_shorts,Sports Shorts,boys/bottomwear/shorts/sports_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shorts,casual_shorts,Casual Shorts,boys/bottomwear/shorts/casual_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shorts,cargo_shorts,Cargo Shorts,boys/bottomwear/shorts/cargo_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shorts,denim_shorts,Denim Shorts,boys/bottomwear/shorts/denim_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shorts,swim_shorts,Swim Shorts,boys/bottomwear/shorts/swim_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Shorts,gym_shorts,Gym Shorts,boys/bottomwear/shorts/gym_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Ethnic Wear,kurta,Kurta,boys/ethnicwear/kurta.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Ethnic Wear,kurta_pajama,Kurta Pajama,boys/ethnicwear/kurta_pajama.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Ethnic Wear,nehru_jacket,Nehru Jacket,boys/ethnicwear/nehru_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Ethnic Wear,sherwani,Sherwani,boys/ethnicwear/sherwani.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Ethnic Wear,indo_western,Indo Western,boys/ethnicwear/indo_western.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,sneakers,Sneakers,boys/footwear/sneakers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,running_shoes,Running Shoes,boys/footwear/running_shoes.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,casual_shoes,Casual Shoes,boys/footwear/casual_shoes.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,formal_shoes,Formal Shoes,boys/footwear/formal_shoes.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,boots,Boots,boys/footwear/boots.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,sandals,Sandals,boys/footwear/sandals.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Footwear,slides,Slides,boys/footwear/slides.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Accessories,cap,Cap,boys/accessories/cap.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Accessories,watch,Watch,boys/accessories/watch.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Accessories,sunglasses,Sunglasses,boys/accessories/sunglasses.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Accessories,belt,Belt,boys/accessories/belt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Accessories,backpack,Backpack,boys/accessories/backpack.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+boys,Accessories,chain,Chain,boys/accessories/chain.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Tops,crop_top,Crop Top,girls/topwear/tops/crop_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Tops,tank_top,Tank Top,girls/topwear/tops/tank_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Tops,basic_top,Basic Top,girls/topwear/tops/basic_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Tops,fitted_top,Fitted Top,girls/topwear/tops/fitted_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Tops,ruffle_top,Ruffle Top,girls/topwear/tops/ruffle_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Tops,peplum_top,Peplum Top,girls/topwear/tops/peplum_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shirts & Blouses,formal_shirt,Formal Shirt,girls/topwear/shirts_blouses/formal_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shirts & Blouses,casual_shirt,Casual Shirt,girls/topwear/shirts_blouses/casual_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shirts & Blouses,denim_shirt,Denim Shirt,girls/topwear/shirts_blouses/denim_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shirts & Blouses,satin_blouse,Satin Blouse,girls/topwear/shirts_blouses/satin_blouse.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shirts & Blouses,oversized_shirt,Oversized Shirt,girls/topwear/shirts_blouses/oversized_shirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shirts & Blouses,wrap_top,Wrap Top,girls/topwear/shirts_blouses/wrap_top.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Kurtis & Ethnic Tops,straight_kurti,Straight Kurti,girls/ethnicwear/tops_kurtis/straight_kurti.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Kurtis & Ethnic Tops,anarkali_kurti,Anarkali Kurti,girls/ethnicwear/tops_kurtis/anarkali_kurti.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Kurtis & Ethnic Tops,short_kurti,Short Kurti,girls/ethnicwear/tops_kurtis/short_kurti.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Kurtis & Ethnic Tops,peplum_kurti,Peplum Kurti,girls/ethnicwear/tops_kurtis/peplum_kurti.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Kurtis & Ethnic Tops,tunic,Tunic,girls/ethnicwear/tops_kurtis/tunic.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Kurtis & Ethnic Tops,embroidered_kurti,Embroidered Kurti,girls/ethnicwear/tops_kurtis/embroidered_kurti.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Dresses,bodycon_dress,Bodycon Dress,girls/dresses/bodycon_dress.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Dresses,aline_dress,Aline Dress,girls/dresses/aline_dress.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Dresses,midi_dress,Midi Dress,girls/dresses/midi_dress.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Dresses,maxi_dress,Maxi Dress,girls/dresses/maxi_dress.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Dresses,party_dress,Party Dress,girls/dresses/party_dress.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Dresses,co_ord_set,Co Ord Set,girls/dresses/co_ord_set.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Jeans,skinny_jeans,Skinny Jeans,girls/bottomwear/jeans/skinny_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Jeans,straight_jeans,Straight Jeans,girls/bottomwear/jeans/straight_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Jeans,wide_leg_jeans,Wide Leg Jeans,girls/bottomwear/jeans/wide_leg_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Jeans,flared_jeans,Flared Jeans,girls/bottomwear/jeans/flared_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Jeans,mom_fit_jeans,Mom Fit Jeans,girls/bottomwear/jeans/mom_fit_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Jeans,baggy_jeans,Baggy Jeans,girls/bottomwear/jeans/baggy_jeans.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Trousers & Pants,formal_trousers,Formal Trousers,girls/bottomwear/trousers/formal_trousers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Trousers & Pants,palazzo,Palazzo,girls/bottomwear/trousers/palazzo.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Trousers & Pants,culottes,Culottes,girls/bottomwear/trousers/culottes.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Trousers & Pants,cargo_pants,Cargo Pants,girls/bottomwear/trousers/cargo_pants.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Trousers & Pants,joggers,Joggers,girls/bottomwear/trousers/joggers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Trousers & Pants,linen_pants,Linen Pants,girls/bottomwear/trousers/linen_pants.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shorts & Skirts,denim_shorts,Denim Shorts,girls/bottomwear/shorts_skirts/denim_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shorts & Skirts,cotton_shorts,Cotton Shorts,girls/bottomwear/shorts_skirts/cotton_shorts.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shorts & Skirts,skort,Skort,girls/bottomwear/shorts_skirts/skort.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shorts & Skirts,mini_skirt,Mini Skirt,girls/bottomwear/shorts_skirts/mini_skirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shorts & Skirts,midi_skirt,Midi Skirt,girls/bottomwear/shorts_skirts/midi_skirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Shorts & Skirts,maxi_skirt,Maxi Skirt,girls/bottomwear/shorts_skirts/maxi_skirt.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Ethnic Bottoms & Dupatta,leggings,Leggings,girls/ethnicwear/bottoms_dupatta/leggings.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Ethnic Bottoms & Dupatta,churidar,Churidar,girls/ethnicwear/bottoms_dupatta/churidar.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Ethnic Bottoms & Dupatta,ethnic_palazzo,Ethnic Palazzo,girls/ethnicwear/bottoms_dupatta/ethnic_palazzo.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Ethnic Bottoms & Dupatta,sharara,Sharara,girls/ethnicwear/bottoms_dupatta/sharara.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Ethnic Bottoms & Dupatta,lehenga,Lehenga,girls/ethnicwear/bottoms_dupatta/lehenga.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Ethnic Bottoms & Dupatta,dupatta,Dupatta,girls/ethnicwear/bottoms_dupatta/dupatta.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Outerwear,denim_jacket,Denim Jacket,girls/outerwear/denim_jacket.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Outerwear,blazer,Blazer,girls/outerwear/blazer.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Outerwear,cardigan,Cardigan,girls/outerwear/cardigan.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Outerwear,sweater,Sweater,girls/outerwear/sweater.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Outerwear,coat,Coat,girls/outerwear/coat.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Outerwear,shrug,Shrug,girls/outerwear/shrug.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Lingerie & Innerwear,bra,Bra,girls/innerwear/bra.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Lingerie & Innerwear,bralette,Bralette,girls/innerwear/bralette.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Lingerie & Innerwear,sports_bra,Sports Bra,girls/innerwear/sports_bra.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Lingerie & Innerwear,panty,Panty,girls/innerwear/panty.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Lingerie & Innerwear,shapewear,Shapewear,girls/innerwear/shapewear.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Lingerie & Innerwear,slip,Slip,girls/innerwear/slip.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Footwear,sneakers,Sneakers,girls/footwear/sneakers.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Footwear,heels,Heels,girls/footwear/heels.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Footwear,flats,Flats,girls/footwear/flats.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Footwear,sandals,Sandals,girls/footwear/sandals.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Footwear,wedges,Wedges,girls/footwear/wedges.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Footwear,boots,Boots,girls/footwear/boots.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Accessories,handbag,Handbag,girls/accessories/handbag.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Accessories,watch,Watch,girls/accessories/watch.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Accessories,sunglasses,Sunglasses,girls/accessories/sunglasses.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Accessories,earrings,Earrings,girls/accessories/earrings.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Accessories,necklace,Necklace,girls/accessories/necklace.png,PNG,individual catalog item thumbnail; use product-level size chart for fit
+girls,Accessories,hair_clip,Hair Clip,girls/accessories/hair_clip.png,PNG,individual catalog item thumbnail; use product-level size chart for fit

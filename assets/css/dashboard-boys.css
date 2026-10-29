@@ -1,0 +1,10 @@
+body.boys-dashboard{--bg:#f2f5f2;--accent:#2f706b;--accent-soft:#e5efec;--green:#39735d}
+body.boys-dashboard .sidebar{background:#16343a;border-color:#24484b}
+body.boys-dashboard .nav-label{color:#a9c4bf}
+body.boys-dashboard .nav a{color:#d5e3df}
+body.boys-dashboard .nav a:hover,body.boys-dashboard .nav a.active{background:#ffffff18;color:#fff}
+body.boys-dashboard .style-tip{background:#ffffff12;border-color:#ffffff24}
+body.boys-dashboard .style-tip h4{color:#fff}
+body.boys-dashboard .style-tip p{color:#c8dad5}
+body.boys-dashboard .hero{background:linear-gradient(105deg,#dceae5,#eef2e9 62%,#e7eee9)}
+body.boys-dashboard .hero-tag{color:#45635e}
